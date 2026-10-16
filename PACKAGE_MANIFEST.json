@@ -1,0 +1,3125 @@
+{
+  "package": "community-poster-editable",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 319,
+      "sha256": "a61beae836570139e60e4156beb14f9e36c0da156fbec5a59061ec2996573d12"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11560,
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+    },
+    {
+      "path": "PORTABLE_SETUP.md",
+      "bytes": 1889,
+      "sha256": "3cd4fa5e5aa015925237a537b7ec10877183062741695dc9ecc572a698d692de"
+    },
+    {
+      "path": "references/catalog/layout/A001.json",
+      "bytes": 8698,
+      "sha256": "5ced64453e64399a0d545ed371665c6d23461cb0fb3ba7c8acb31e968412bd8e"
+    },
+    {
+      "path": "references/catalog/layout/A001.md",
+      "bytes": 5250,
+      "sha256": "e23bf292ade9a85cfeb507d829768d7b206d9711d7ed000089d5aff4ffb28ea2"
+    },
+    {
+      "path": "references/catalog/layout/A002.json",
+      "bytes": 8698,
+      "sha256": "e2a1700c3e375ec8ad73c82314f2de1a58f8b204e120633ce6738ecdbb30698c"
+    },
+    {
+      "path": "references/catalog/layout/A002.md",
+      "bytes": 5250,
+      "sha256": "64d16e1479b1208dfd56a41b8b486f4d17d55fd8a360e27227c571db6c23e144"
+    },
+    {
+      "path": "references/catalog/layout/A003.json",
+      "bytes": 8698,
+      "sha256": "b6f89a3f5da93381dda7d6317bba79ad3818b22629b93e71218394c2bbaf9dcc"
+    },
+    {
+      "path": "references/catalog/layout/A003.md",
+      "bytes": 5250,
+      "sha256": "5bd47b1bfe9fedc8caf2d07e5dcbe39c01c61de83e9daa5638c8815e7ea04c9a"
+    },
+    {
+      "path": "references/catalog/layout/A004.json",
+      "bytes": 8698,
+      "sha256": "6ed611ba8ae37b8a61df582941a9e85f2a16ccf1603917c7c69037ab7a4b3901"
+    },
+    {
+      "path": "references/catalog/layout/A004.md",
+      "bytes": 5250,
+      "sha256": "5f7557c28c58844f538f164c9ed2edff88ae3672904307f307f99b0c5595cb40"
+    },
+    {
+      "path": "references/catalog/layout/A005.json",
+      "bytes": 8686,
+      "sha256": "576594f30d652ba0b023596c028075f185fbd3feae5b15c4a182166577728a3a"
+    },
+    {
+      "path": "references/catalog/layout/A005.md",
+      "bytes": 5238,
+      "sha256": "45a6af99cabfd966c5d0970d0e65324e931c724731981550a7b9a651860fd9e1"
+    },
+    {
+      "path": "references/catalog/layout/A006.json",
+      "bytes": 8686,
+      "sha256": "ac16033e1d01d221004958256e9619fa63f1a9a484ce7296f79d4abaf82910f5"
+    },
+    {
+      "path": "references/catalog/layout/A006.md",
+      "bytes": 5238,
+      "sha256": "d753a83c8ba5c64f22424260d989aa135c4ff03e3eb2e74261a88fe70cd66431"
+    },
+    {
+      "path": "references/catalog/layout/A007.json",
+      "bytes": 8554,
+      "sha256": "49d36bc589b4a00001f797a8b437a8c72aec9801e2aa9a98a0703aaa93ac788a"
+    },
+    {
+      "path": "references/catalog/layout/A007.md",
+      "bytes": 5106,
+      "sha256": "1eb36254f2324a16620fa53030d732aa8364aa931800328c6d83ad04af3dd4a8"
+    },
+    {
+      "path": "references/catalog/layout/A008.json",
+      "bytes": 8631,
+      "sha256": "7fae41328defb66b780f5f88b5818dc54c9939592d0891b40f7896c31cdbbad7"
+    },
+    {
+      "path": "references/catalog/layout/A008.md",
+      "bytes": 5183,
+      "sha256": "40428ce6a9fd6ad30ad04f306c3175505fc6fe7e44cd8f435ec8a97fc2b3fb9b"
+    },
+    {
+      "path": "references/catalog/layout/A009.json",
+      "bytes": 8631,
+      "sha256": "55f01556099f47ce3cb4f471bcda3deaa6d69142000d91e192c2f2a7346d9fd0"
+    },
+    {
+      "path": "references/catalog/layout/A009.md",
+      "bytes": 5183,
+      "sha256": "93c422046fa71c76b9d5ea1e55c4f2b45730aa9a9d155157276d7ca34c8c046b"
+    },
+    {
+      "path": "references/catalog/layout/A010.json",
+      "bytes": 8631,
+      "sha256": "165f688e8579541220783011d8234f62d54a40bdc9cac8615f089ca17e439a05"
+    },
+    {
+      "path": "references/catalog/layout/A010.md",
+      "bytes": 5183,
+      "sha256": "db07a47dd97fe50024c10ea7e0ed4a5b10a66ad0025a3493bbb9f4b3bdc50899"
+    },
+    {
+      "path": "references/catalog/layout/A011.json",
+      "bytes": 8631,
+      "sha256": "c6276fc400d3c9aaed051ab17fd8a0ccebd82ae5e749bfd2b324fd6841516f63"
+    },
+    {
+      "path": "references/catalog/layout/A011.md",
+      "bytes": 5183,
+      "sha256": "58e06be611fb5e1150298ba2db1a696233d364f1ae891717eab14610ac3bfd47"
+    },
+    {
+      "path": "references/catalog/layout/A012.json",
+      "bytes": 8592,
+      "sha256": "3566ee94d8831c475057dae35809e7bf180eb68debbb2bb4e572b582e9378800"
+    },
+    {
+      "path": "references/catalog/layout/A012.md",
+      "bytes": 5144,
+      "sha256": "fd57c5bc17750200084979e350424214a2c14d021b50f32e8bab6e293431b211"
+    },
+    {
+      "path": "references/catalog/layout/A013.json",
+      "bytes": 8592,
+      "sha256": "80b19cbb1b91ed22639d82c1bb297131703f57fc50c47a8a2aa57c4ec5d1fc24"
+    },
+    {
+      "path": "references/catalog/layout/A013.md",
+      "bytes": 5144,
+      "sha256": "fa19bc5030b800a2c3811eedeb1753876a501bed6a25004ce81da767f29bc47a"
+    },
+    {
+      "path": "references/catalog/layout/A014.json",
+      "bytes": 8592,
+      "sha256": "68e3e34605eb62fa054be361aae9e3ffeef23145e5ce231b5db4d6ebe678e74c"
+    },
+    {
+      "path": "references/catalog/layout/A014.md",
+      "bytes": 5144,
+      "sha256": "c68188c2e78b41ba1388dc3dff6369c05a853f9e0023db311a7b0cc97f8c3146"
+    },
+    {
+      "path": "references/catalog/layout/A015.json",
+      "bytes": 8592,
+      "sha256": "b9779af142cf16dc1d2c0c6254a9c4e4f2afc206492dc22470b3de2aaed9d98e"
+    },
+    {
+      "path": "references/catalog/layout/A015.md",
+      "bytes": 5144,
+      "sha256": "be394f8e3c6fd30a50d1c35940560112320099c31e642cf07d7b2be736a66467"
+    },
+    {
+      "path": "references/catalog/layout/A016.json",
+      "bytes": 8592,
+      "sha256": "e49b940a9bb5673f52d3a31e79fc5d25c48594d1a48ad44a0863224dcc941363"
+    },
+    {
+      "path": "references/catalog/layout/A016.md",
+      "bytes": 5144,
+      "sha256": "9b07e5ce5b84dd5cf6d3e31c815a67957619035a28756f8e561a2a59587bc300"
+    },
+    {
+      "path": "references/catalog/layout/A017.json",
+      "bytes": 8592,
+      "sha256": "fd609f21aef18856f5f43ab8b860e4164f0201115c08e6eca7ba7eaf24e4bd8a"
+    },
+    {
+      "path": "references/catalog/layout/A017.md",
+      "bytes": 5144,
+      "sha256": "76539259ce65876ffcb6a63800ad41e1404e77d938ea4e5ae52011d1e42e1953"
+    },
+    {
+      "path": "references/catalog/layout/A018.json",
+      "bytes": 8603,
+      "sha256": "10c2fa6a69a2be2d4b7c8299102dc0ec2993e97c452841d7678883aa7ad4432f"
+    },
+    {
+      "path": "references/catalog/layout/A018.md",
+      "bytes": 5155,
+      "sha256": "b646e08d1d96a1308594436a79bf7471a9d54bdf8a28f3375169226c683c499f"
+    },
+    {
+      "path": "references/catalog/layout/A019.json",
+      "bytes": 8603,
+      "sha256": "7de38189a1e59c436659c23bcf67abd85c47e3a0b856c9564baf23a66a6297da"
+    },
+    {
+      "path": "references/catalog/layout/A019.md",
+      "bytes": 5155,
+      "sha256": "a425be995ad2cb91a7bf93d0f912eab2bf2500f3d574cb2f347ae409adfa7dfb"
+    },
+    {
+      "path": "references/catalog/layout/A020.json",
+      "bytes": 8588,
+      "sha256": "51835dba972973d9e92594fc977c88e09b3b033ce8deef424ca2d00a27fb030a"
+    },
+    {
+      "path": "references/catalog/layout/A020.md",
+      "bytes": 5140,
+      "sha256": "493a0fa007d9ce67736703f0f95bb2be2f11d4a35a85e60867f6a4e497b58bb9"
+    },
+    {
+      "path": "references/catalog/layout/A021.json",
+      "bytes": 8588,
+      "sha256": "c2b95efce6068af655cab26e5aeb583f7e25951e2de780f7acdd73ca500ce010"
+    },
+    {
+      "path": "references/catalog/layout/A021.md",
+      "bytes": 5140,
+      "sha256": "b1aa722b3a9bb26a48a3f89e0a0acb36e02bfeaf052b0f4d77cde77910f14ae2"
+    },
+    {
+      "path": "references/catalog/layout/A022.json",
+      "bytes": 8691,
+      "sha256": "e5e9dee29af26b628cc1cfaf0df0be77242c121a6498b1a4145b787032931380"
+    },
+    {
+      "path": "references/catalog/layout/A022.md",
+      "bytes": 5243,
+      "sha256": "8e17cfec896fd1e5624e3d0d03da123efaaad1ef845559d3f14996682e370d63"
+    },
+    {
+      "path": "references/catalog/layout/A023.json",
+      "bytes": 8691,
+      "sha256": "ba07032291269400e9ff3fc6dc523a998c8d4e0fcce21bd922c51b8d4adcceae"
+    },
+    {
+      "path": "references/catalog/layout/A023.md",
+      "bytes": 5243,
+      "sha256": "ed03329d3c4b0ad4f65d5c8da22e2a5e8db773eb9df0afd4b9edcccf025b754f"
+    },
+    {
+      "path": "references/catalog/layout/A024.json",
+      "bytes": 8691,
+      "sha256": "41ad51208b8330f042b2ff13c6f1c5b6c277b0ed7bf5527555caf7aeffcb3946"
+    },
+    {
+      "path": "references/catalog/layout/A024.md",
+      "bytes": 5243,
+      "sha256": "4cc18e9bdb8774dd96824a99b4c54aee9be89ef1b4476b7b7b5f769f1337e266"
+    },
+    {
+      "path": "references/catalog/layout/A025.json",
+      "bytes": 8691,
+      "sha256": "313540aac4a632cf36d12babef5a230944da7ea035aa2618fe8fffcd76c7afd7"
+    },
+    {
+      "path": "references/catalog/layout/A025.md",
+      "bytes": 5243,
+      "sha256": "62ccbe655a0ae1099db686e9df2863a1545784e3fe3e0d6a922bf3db88ba15fa"
+    },
+    {
+      "path": "references/catalog/layout/C001.json",
+      "bytes": 8874,
+      "sha256": "e9bd54c94cfa6ced85c508d945db0afef6b2e439e0ee83afc66dc7dd4c54dde5"
+    },
+    {
+      "path": "references/catalog/layout/C001.md",
+      "bytes": 5426,
+      "sha256": "82fae10efaf17133ea7f7cbb308a19735c8cc54a6ce49b8bba394dea38c1e6cf"
+    },
+    {
+      "path": "references/catalog/layout/C002.json",
+      "bytes": 8755,
+      "sha256": "46bd3f49d11798a62226702960edd0e8dffef5755385eca7906fcceb16239d91"
+    },
+    {
+      "path": "references/catalog/layout/C002.md",
+      "bytes": 5307,
+      "sha256": "b6cdae828438704346a26b345f7cd5a91cf898a61e044f544d74e0dd1baae346"
+    },
+    {
+      "path": "references/catalog/layout/C003.json",
+      "bytes": 8812,
+      "sha256": "a253e521bd71c3da698e8646c11967b5c80bf29818a048f5a78b792d2c668d7d"
+    },
+    {
+      "path": "references/catalog/layout/C003.md",
+      "bytes": 5364,
+      "sha256": "5a4be40c6980b3d94ce4794817daf444175158b981f561fa5b2af753d0d27861"
+    },
+    {
+      "path": "references/catalog/layout/C004.json",
+      "bytes": 8676,
+      "sha256": "66af5ba2954a716dd755ed94f1ce42a5fd5a7a2db2f3636910e4772107ff8f78"
+    },
+    {
+      "path": "references/catalog/layout/C004.md",
+      "bytes": 5228,
+      "sha256": "50b23c475aa68eb2b13ecdef87dd36bf529cecac02967a7dae63651ab7738567"
+    },
+    {
+      "path": "references/catalog/layout/C005.json",
+      "bytes": 8909,
+      "sha256": "4c95ac1c082ad19bafe13256128a391ee67e37da58be4541b2ec585dd5315dec"
+    },
+    {
+      "path": "references/catalog/layout/C005.md",
+      "bytes": 5461,
+      "sha256": "69c803c94f022207d97acfa4dd13ae1a1c9d089d543a5b706d7b4ec1beda45dc"
+    },
+    {
+      "path": "references/catalog/layout/C006.json",
+      "bytes": 8723,
+      "sha256": "ab95016c2bc35b4510cf6eadd7ae1bc7a97bf2ec7bf92f7de52a3e6f3d6f9e2d"
+    },
+    {
+      "path": "references/catalog/layout/C006.md",
+      "bytes": 5275,
+      "sha256": "f4a75770495056a9bdcf1f572ce5ee06cbdaca2b96fc312999b178422df82e88"
+    },
+    {
+      "path": "references/catalog/layout/C007.json",
+      "bytes": 8799,
+      "sha256": "1e99bad4c72726e9f5ba951b791484c5ae8a1cf9ba8d907d773c15fee17e339c"
+    },
+    {
+      "path": "references/catalog/layout/C007.md",
+      "bytes": 5351,
+      "sha256": "2844c7239959a23638d9181ee34036eb3feb2db9e6f20f6766d08a70e4e99bf2"
+    },
+    {
+      "path": "references/catalog/layout/C008.json",
+      "bytes": 8843,
+      "sha256": "53172896b37302a0bf76d4557603fdf7875d3eff606c2e815c8a071e1316b1ee"
+    },
+    {
+      "path": "references/catalog/layout/C008.md",
+      "bytes": 5395,
+      "sha256": "2a578d491fac3122fb0fd6a6828c5f2fb44a2ca8a11bca4fd0a024cbd9683372"
+    },
+    {
+      "path": "references/catalog/layout/C009.json",
+      "bytes": 8843,
+      "sha256": "94287468fb634aae9c5fa5e8bcb624ba941dfca2db170856e742901b1a5ab7e4"
+    },
+    {
+      "path": "references/catalog/layout/C009.md",
+      "bytes": 5395,
+      "sha256": "72485fcb22ed3c78c799d1a6229a4e8716b48d941783f80778a77a8382d0bf7d"
+    },
+    {
+      "path": "references/catalog/layout/C010.json",
+      "bytes": 8904,
+      "sha256": "045fbdc5bccaed299181533dc5798b04ca1c06e8fb0444c655e8ccec9e676c72"
+    },
+    {
+      "path": "references/catalog/layout/C010.md",
+      "bytes": 5456,
+      "sha256": "279bb487a5c4887da25f5df806cefcb4b3337a6ab7910178da7d4fbc7fb71e86"
+    },
+    {
+      "path": "references/catalog/layout/C011.json",
+      "bytes": 8864,
+      "sha256": "46579aa1d178dacddff81c7199efb7e3bada716602e9c1ceb4880e03826eea7b"
+    },
+    {
+      "path": "references/catalog/layout/C011.md",
+      "bytes": 5416,
+      "sha256": "8c641ab60b8910a3358771960df50d7e2d6033a7812c6a400d038ac384303551"
+    },
+    {
+      "path": "references/catalog/layout/C012.json",
+      "bytes": 8806,
+      "sha256": "b1b53ca9b7b41d9f00b82900afdd5a33c21b6f906da3cb3ddcdcf8095d846b70"
+    },
+    {
+      "path": "references/catalog/layout/C012.md",
+      "bytes": 5358,
+      "sha256": "4cb3636414cb0d8d957fced245e6a2b2775158e05862fc211958071da131477f"
+    },
+    {
+      "path": "references/catalog/layout/C013.json",
+      "bytes": 8725,
+      "sha256": "7a919eda5238a2a8bc2c21467ece052953e7ab10170ec8f09e2e8005d9a36c5a"
+    },
+    {
+      "path": "references/catalog/layout/C013.md",
+      "bytes": 5277,
+      "sha256": "335427c5340c7421fea34742e79c57f3c1e0c70edc381c13d413ddc0dd1b9c15"
+    },
+    {
+      "path": "references/catalog/layout/C014.json",
+      "bytes": 8794,
+      "sha256": "2f4fa1903029ad99969dcc6f4efca06462f80bed512231f4542853ed51b22c45"
+    },
+    {
+      "path": "references/catalog/layout/C014.md",
+      "bytes": 5346,
+      "sha256": "e8be9f9abe5b7966fb1171d30e483df0cf984eb9c041856c0cf07b039c100aef"
+    },
+    {
+      "path": "references/catalog/layout/C015.json",
+      "bytes": 8667,
+      "sha256": "82da77cc6c790186f9b0de16235489d5775f403b4aa058004bb38f9e6ff596bb"
+    },
+    {
+      "path": "references/catalog/layout/C015.md",
+      "bytes": 5219,
+      "sha256": "b6705f385eaa56f9eea8b55d450de2205ea701c6a7f1d2b95423c27f7d9f0b0b"
+    },
+    {
+      "path": "references/catalog/layout/C016.json",
+      "bytes": 8751,
+      "sha256": "2142367bd4447357e73cec1f181cb8a6490fdc5c15fe4b85ef2dbdb5a75047b3"
+    },
+    {
+      "path": "references/catalog/layout/C016.md",
+      "bytes": 5303,
+      "sha256": "61a498544922dcbcdc81ccb8d1f31cb385ce6b2d93d2d6c50c0454278bf8a536"
+    },
+    {
+      "path": "references/catalog/layout/C017.json",
+      "bytes": 8738,
+      "sha256": "f185de4d84a2bad2bb1e4f9f8f324b26cd39f93b6bf551fee4181b952827abcd"
+    },
+    {
+      "path": "references/catalog/layout/C017.md",
+      "bytes": 5290,
+      "sha256": "806e03e5214cd9b7cd1d491ed1d199fd212d1f7a6aee389b5302d120f0057c51"
+    },
+    {
+      "path": "references/catalog/layout/C018.json",
+      "bytes": 8679,
+      "sha256": "60807092aaa19109ea098e3c0a4750bfc635f11a59a72c6c8b34c158d3ffd3a9"
+    },
+    {
+      "path": "references/catalog/layout/C018.md",
+      "bytes": 5231,
+      "sha256": "062c6d695d5eef64b1755070f986871a1ad3419bc76e5fcb3156ccb0567dfd62"
+    },
+    {
+      "path": "references/catalog/layout/C019.json",
+      "bytes": 8785,
+      "sha256": "7aa9814710e53c8719edbf6e4fabb5783ea9e9e6773dcd34c0afd096e488727b"
+    },
+    {
+      "path": "references/catalog/layout/C019.md",
+      "bytes": 5337,
+      "sha256": "d49fb5961f5ee687a1a55f3962d5db9ae77ee38dd630ad2234391f5fc4c05e9c"
+    },
+    {
+      "path": "references/catalog/layout/C020.json",
+      "bytes": 8632,
+      "sha256": "fafbee0f12ebe48d0f190165ab5504988b50d9fe6b84d074e8dbbe1d93dab9b7"
+    },
+    {
+      "path": "references/catalog/layout/C020.md",
+      "bytes": 5184,
+      "sha256": "efc1aae56b40bad8f4acbd493c3e9b548543f3dffb730af9d194d67df3ed898e"
+    },
+    {
+      "path": "references/catalog/layout/C021.json",
+      "bytes": 8724,
+      "sha256": "6992176aeec417611d967ed042cad6af0935190a239e23a8bf988bc52c5b0ed6"
+    },
+    {
+      "path": "references/catalog/layout/C021.md",
+      "bytes": 5276,
+      "sha256": "5e0d02b8b9a9cd3b420b46f2d43aad112d509ee28aa5b059a2e3d62448eb87c2"
+    },
+    {
+      "path": "references/catalog/layout/C022.json",
+      "bytes": 8822,
+      "sha256": "4d0c38910bbcd03af6f1de39ac5cb11f472166ea1caacea641d97c2a2b6c76f8"
+    },
+    {
+      "path": "references/catalog/layout/C022.md",
+      "bytes": 5374,
+      "sha256": "5af67ee33931f087f224e0a0fb1e64af71829fc0d5d30f3d4b903029ea914812"
+    },
+    {
+      "path": "references/catalog/layout/C023.json",
+      "bytes": 8708,
+      "sha256": "ef174108c6640f9ad7f6d5c64bd5c7f0ce2d91d091448533e2fa9dbc7b77bd2a"
+    },
+    {
+      "path": "references/catalog/layout/C023.md",
+      "bytes": 5260,
+      "sha256": "5f5690758c4480adb9a60adc4058c474ee2bcde1b7653e4053f12c016822b96d"
+    },
+    {
+      "path": "references/catalog/layout/C024.json",
+      "bytes": 8803,
+      "sha256": "70302586ae8a499782b8432debb0e89c03c81833639746fcc81ee9bad51dadba"
+    },
+    {
+      "path": "references/catalog/layout/C024.md",
+      "bytes": 5355,
+      "sha256": "0ee0e2f20165d1f4c244a96d79e7ac31a47820ac641bd3094870875c22f0095f"
+    },
+    {
+      "path": "references/catalog/layout/C025.json",
+      "bytes": 8803,
+      "sha256": "d085a20d64dd53f404da4a07ad2efca7335efcf9f557d8d1c3ad20f72d81bfd8"
+    },
+    {
+      "path": "references/catalog/layout/C025.md",
+      "bytes": 5355,
+      "sha256": "fa8c85cf8cbc5bab687379d71dcfa85769ac124016d5b8b24c48f8ad5f6c18ff"
+    },
+    {
+      "path": "references/catalog/layout/C026.json",
+      "bytes": 8797,
+      "sha256": "f4394afcee1a6ce6ac6ef400024666915af0960c55d1486985fe1a955ab54399"
+    },
+    {
+      "path": "references/catalog/layout/C026.md",
+      "bytes": 5349,
+      "sha256": "f1236a8edac3117b534af2db8fbb92a57272c16d9a814f8748c5ae4921a26bff"
+    },
+    {
+      "path": "references/catalog/layout/C027.json",
+      "bytes": 8753,
+      "sha256": "cfda300afe584d7936e33b99793c1f5e4cc3c1e6f124409a9001ea66db19e1a9"
+    },
+    {
+      "path": "references/catalog/layout/C027.md",
+      "bytes": 5305,
+      "sha256": "cb20cda7b7b6e25b9d5028f66f62c4641c113ab277e1389e813376d8bb4c0cd8"
+    },
+    {
+      "path": "references/catalog/layout/C028.json",
+      "bytes": 8696,
+      "sha256": "fc097cf32949c858f11ff923c19c3273b3809650560ed14559cd0c209d41290a"
+    },
+    {
+      "path": "references/catalog/layout/C028.md",
+      "bytes": 5248,
+      "sha256": "640a5b9378bf3a79465bada57247352f5b254a6c46197883dc54863d87a7b62e"
+    },
+    {
+      "path": "references/catalog/layout/C029.json",
+      "bytes": 8763,
+      "sha256": "975d1fc6ff461a2a2d7759478cd5b97ff23b60d6ce7e26f7535897f3923f876e"
+    },
+    {
+      "path": "references/catalog/layout/C029.md",
+      "bytes": 5315,
+      "sha256": "8141633cf46e26219b13d0bedd4848140b2bf8d598af17ecb89b9a858e2dd288"
+    },
+    {
+      "path": "references/catalog/layout/C030.json",
+      "bytes": 8717,
+      "sha256": "1ac28d932734897ef2541c77d68531bb05c1c778b7e843595c4862da243ed9b4"
+    },
+    {
+      "path": "references/catalog/layout/C030.md",
+      "bytes": 5269,
+      "sha256": "8b5fc4b2924019a1bb49f0e4c913d03fc788f1b777ce5c1ad7ca95929d46b6b7"
+    },
+    {
+      "path": "references/catalog/layout/C031.json",
+      "bytes": 8800,
+      "sha256": "249aeb62f4ad62080596641c3755545aa4110ee09c0bb3bff25789c53c397387"
+    },
+    {
+      "path": "references/catalog/layout/C031.md",
+      "bytes": 5352,
+      "sha256": "0e89bd6c6b44d43669d70bb0f0395e178f0088f943f85fb101ae0654dcddc3e8"
+    },
+    {
+      "path": "references/catalog/layout/C032.json",
+      "bytes": 8691,
+      "sha256": "87ea47bb46f371ea406e72c55d3906fb6ed6b8d5513a02443eebf494bf49e7d6"
+    },
+    {
+      "path": "references/catalog/layout/C032.md",
+      "bytes": 5243,
+      "sha256": "7e497d456ee4f28a7e8964e6cc23cb9e6077eebee7fcb4a8b604987ddc8d92c1"
+    },
+    {
+      "path": "references/catalog/layout/C033.json",
+      "bytes": 8735,
+      "sha256": "ce4c93eadb036921efdb68001ef3d0ebc5264088aa8d44ca78f363610c2a870e"
+    },
+    {
+      "path": "references/catalog/layout/C033.md",
+      "bytes": 5287,
+      "sha256": "463b7fb1607279a7cd9f470db8b2691186a0f4c7de2c2bcf542e4128c3c12fe8"
+    },
+    {
+      "path": "references/catalog/layout/C034.json",
+      "bytes": 8750,
+      "sha256": "fa827e227db7cfcfe6bb69a2db8ab9e1c118359ba465f3a6255db6161749185c"
+    },
+    {
+      "path": "references/catalog/layout/C034.md",
+      "bytes": 5302,
+      "sha256": "24de53dfa02903dadc273570809ef1add090665e6a62d43211dd334045b17eb1"
+    },
+    {
+      "path": "references/catalog/layout/C035.json",
+      "bytes": 8807,
+      "sha256": "cbc29128dc70ec22ac2f747226e997ed4d3f36764c17a05740bb7434b387f4eb"
+    },
+    {
+      "path": "references/catalog/layout/C035.md",
+      "bytes": 5359,
+      "sha256": "c73e40053f87e7f725ac853d0ff6a10e1bac44d11ab60fd0231dd060823c2ac2"
+    },
+    {
+      "path": "references/catalog/layout/C036.json",
+      "bytes": 8745,
+      "sha256": "47e20cd79dcaf2b5e705adc9962a9100e4f400976a6457b1497713e41a716a2f"
+    },
+    {
+      "path": "references/catalog/layout/C036.md",
+      "bytes": 5297,
+      "sha256": "5860bf289cbd296e61830aa3d960edb99408b05274080c7c17f236b17fdb3d46"
+    },
+    {
+      "path": "references/catalog/layout/C037.json",
+      "bytes": 8765,
+      "sha256": "dd8ecd6c8c5c1d40f50199bce70d18ccbaa33248812fc021737281da1915af1f"
+    },
+    {
+      "path": "references/catalog/layout/C037.md",
+      "bytes": 5317,
+      "sha256": "99be0cf4f37d4e50c874a49c538221f8a6dfef35591451ab528df02e2dc385f2"
+    },
+    {
+      "path": "references/catalog/layout/C038.json",
+      "bytes": 8774,
+      "sha256": "233cfeb5ca404449d1e581db632e8a4da66947f6d805299cf7ca2a14d5c0a718"
+    },
+    {
+      "path": "references/catalog/layout/C038.md",
+      "bytes": 5326,
+      "sha256": "c42a9fa2c695cdbba9b2509862b4c48650e5bfba97f9b46e620f4d0f96207b56"
+    },
+    {
+      "path": "references/catalog/layout/C039.json",
+      "bytes": 8904,
+      "sha256": "9c7c781d40249d635d55962dd7e0581f12192714a21c21b33d13a46512e79648"
+    },
+    {
+      "path": "references/catalog/layout/C039.md",
+      "bytes": 5456,
+      "sha256": "c70f2721e3da3b3e9335de736beebf28f9b8fe9343cc58fa0065479beb4ae421"
+    },
+    {
+      "path": "references/catalog/layout/C040.json",
+      "bytes": 8753,
+      "sha256": "d6d975830ad08876c9c41d3d263d08f650e4f8eca8210de0b9116ab310d7adeb"
+    },
+    {
+      "path": "references/catalog/layout/C040.md",
+      "bytes": 5305,
+      "sha256": "7acd7d7cecf948d31a902c918424f20a863abf4791d9e24fe70f2e239e188775"
+    },
+    {
+      "path": "references/catalog/layout/C041.json",
+      "bytes": 8746,
+      "sha256": "da55aa739690076a3c426f799b5e84f8c14ef820ba70c19053c2d52840372d66"
+    },
+    {
+      "path": "references/catalog/layout/C041.md",
+      "bytes": 5298,
+      "sha256": "3d97b65207f7cb2efcc712a1794e522315e074d83a56ab0ed75f03f08f663d69"
+    },
+    {
+      "path": "references/catalog/layout/C042.json",
+      "bytes": 8718,
+      "sha256": "4cb8b907366ca42e7093c2ab7ae479b39b36cbf4b60d4564f8c9e5d7e72766c8"
+    },
+    {
+      "path": "references/catalog/layout/C042.md",
+      "bytes": 5270,
+      "sha256": "7449bde7e9a90aea61ecc8831194f894afd347a6fd67dfe7bace47f6a2c8c3fa"
+    },
+    {
+      "path": "references/catalog/layout/C043.json",
+      "bytes": 8731,
+      "sha256": "0eb6229381d3f66413ab1450bfd6b2d552b61f6128609f5f53a22dc02d866fc5"
+    },
+    {
+      "path": "references/catalog/layout/C043.md",
+      "bytes": 5283,
+      "sha256": "974784f0bcf93744e94b16f0fc400bfa8b3aeaf6bcf67050de201363a2359925"
+    },
+    {
+      "path": "references/catalog/layout/C044.json",
+      "bytes": 8820,
+      "sha256": "8d1aff7ef183fa87ef831d5096e15e5b917218af40ef046c07326271b52aa39f"
+    },
+    {
+      "path": "references/catalog/layout/C044.md",
+      "bytes": 5372,
+      "sha256": "8ef0479d3c155fc0105a78073c5ed078c33442048c504cca3d332f27aaf919f3"
+    },
+    {
+      "path": "references/catalog/layout/C045.json",
+      "bytes": 8798,
+      "sha256": "8cad03c3aa103f52b48e57595e34b2427b270802daa8cbed03a52d76bb9b03d2"
+    },
+    {
+      "path": "references/catalog/layout/C045.md",
+      "bytes": 5350,
+      "sha256": "cd694e3478cc4c2de9756792b5870be99681b6e498e58af4e1be040251e19020"
+    },
+    {
+      "path": "references/catalog/layout/C046.json",
+      "bytes": 8801,
+      "sha256": "7362bdc97fd3ec95d57b05e64cd78857827d3652a48e762a6824766066d4b58e"
+    },
+    {
+      "path": "references/catalog/layout/C046.md",
+      "bytes": 5353,
+      "sha256": "970621bbad7550ae4cacac6dcc586b4afa2a1dd21574db08f9983c30567aa03c"
+    },
+    {
+      "path": "references/catalog/layout/C047.json",
+      "bytes": 8737,
+      "sha256": "4319378d974ddfa3d035a4ecc4cd73fc4a1e7755878fc4295086a6d0fabe5cda"
+    },
+    {
+      "path": "references/catalog/layout/C047.md",
+      "bytes": 5289,
+      "sha256": "f4635817759763e71a863de26528097b0855c7b59c83c16002a58485fbb07fd1"
+    },
+    {
+      "path": "references/catalog/layout/C048.json",
+      "bytes": 8774,
+      "sha256": "7193751e2fe11a59e44645d10b09a83224c3944bf3b374236e89d725e9bdf51e"
+    },
+    {
+      "path": "references/catalog/layout/C048.md",
+      "bytes": 5326,
+      "sha256": "874918559a658479fad4e6f323590e4c9e4c4a304c5d41030685e483030f2ac3"
+    },
+    {
+      "path": "references/catalog/layout/C049.json",
+      "bytes": 8883,
+      "sha256": "729428b332491e198b1c4d0db3c60dac3a7797da668795d643d7794ebd338422"
+    },
+    {
+      "path": "references/catalog/layout/C049.md",
+      "bytes": 5435,
+      "sha256": "8f38628c0fa87bbc4e29ffa96745437b24f44d457be9521a11556d12cc1ddd8b"
+    },
+    {
+      "path": "references/catalog/layout/C050.json",
+      "bytes": 8766,
+      "sha256": "b46a98b0a4d5c71a35b2c859324135e381c7456e0814fee19a8bfd9d1e29bdc5"
+    },
+    {
+      "path": "references/catalog/layout/C050.md",
+      "bytes": 5318,
+      "sha256": "3e0b8a0ee47cc0e64b4a1437be18c0ecad16d74063bcf270008259c4daa26536"
+    },
+    {
+      "path": "references/catalog/layout/C051.json",
+      "bytes": 8707,
+      "sha256": "ce7c3a6f53656c65d0a72fc4f704e9645fe99fe5cb097e06b7d7138971b19fcd"
+    },
+    {
+      "path": "references/catalog/layout/C051.md",
+      "bytes": 5259,
+      "sha256": "bb6a7a23e31c6d50cceaa1090f1b4b9405c2b68d7804e4c421ef14b9cccd2bf6"
+    },
+    {
+      "path": "references/catalog/layout/C052.json",
+      "bytes": 8769,
+      "sha256": "6d4d0a4f1fec69c92cf4dbd4990e3bf7dbf1ccbaa0bfbd0f04fa97631d19b938"
+    },
+    {
+      "path": "references/catalog/layout/C052.md",
+      "bytes": 5321,
+      "sha256": "9b37fc4a6cd4e8654e8a53e06ca3e2b1b2c7d19f7a0672c0aeb51242fcf921dc"
+    },
+    {
+      "path": "references/catalog/layout-abstract-index.json",
+      "bytes": 56005,
+      "sha256": "f797b798b5e5a6e26bcafbe6940f4cd2d974218072b50a3f79b75fa9482295be"
+    },
+    {
+      "path": "references/catalog/layout-cases.json",
+      "bytes": 699573,
+      "sha256": "6c60e21678722dd45a7d2659d582c07245096f5525dfeea828704d9b186f0256"
+    },
+    {
+      "path": "references/catalog/layout-field-guide.json",
+      "bytes": 22506,
+      "sha256": "ec87eb8bbb5773bb9a56ef75b5c513b10ac6b1819b385f2ce1779454558554d4"
+    },
+    {
+      "path": "references/catalog/layout-index.json",
+      "bytes": 217102,
+      "sha256": "ceca0d5dc5243721a3cf602f6b3ce88645f3027152dbb0bd210c1b6e6a2cdc41"
+    },
+    {
+      "path": "references/catalog/layout-vocabulary.json",
+      "bytes": 3043,
+      "sha256": "09eb49637dee96e85d2f7a5b9873d75b4260e4d5c3260fc016fa0693317c1bc3"
+    },
+    {
+      "path": "references/catalog/style-cases.json",
+      "bytes": 20869,
+      "sha256": "195b2265ad5f3ee9d3de98f2300a8d243a8e56712e74a78a37f60652a20abeff"
+    },
+    {
+      "path": "references/catalog/style-raw-index.json",
+      "bytes": 77377,
+      "sha256": "80ab47c53ec0d56eeb68b11b70d89cc2e5c4da989fcab9d8e669de6d5bd151d1"
+    },
+    {
+      "path": "references/catalog/summary.json",
+      "bytes": 613,
+      "sha256": "280aabf751800fe481c9f77b9d4a113cd054ee0769cc11c66f86336d8ebb8a0b"
+    },
+    {
+      "path": "references/catalog/theme/TH001.md",
+      "bytes": 5900,
+      "sha256": "0c824b6eeb6ff134a152243e25f522c9f4a711ee294ba10c237c59df7f2c9141"
+    },
+    {
+      "path": "references/catalog/theme/TH002.md",
+      "bytes": 6542,
+      "sha256": "9860ebe3a4a0ce28df192d827a0fa927ebbcacf7aec7c4473e5afa81ab6cf64b"
+    },
+    {
+      "path": "references/catalog/theme/TH003.md",
+      "bytes": 9839,
+      "sha256": "acb3780fc46f6c0a9b7b0ddf5cfae7ad260883fd04775099a3d0520f4a08d735"
+    },
+    {
+      "path": "references/catalog/theme-cases.json",
+      "bytes": 25214,
+      "sha256": "14ff490295be3bd8df5279ec3c1aa46ffe83dcbd8da2222ab9efdba9ff356d74"
+    },
+    {
+      "path": "references/catalog/theme-groups.json",
+      "bytes": 10886,
+      "sha256": "b10214251988275b671a4fa0aac02f00389f3485a59539dec579681683eda28d"
+    },
+    {
+      "path": "references/catalog/theme-images.json",
+      "bytes": 3701,
+      "sha256": "5b9fc17849a8132d6a71ed0410ba8a1e44a8ea43a5f593f56cf0448aa4539132"
+    },
+    {
+      "path": "references/content-contract.md",
+      "bytes": 2678,
+      "sha256": "6ef170149e2d6ab3b7fdc2c8669a3407b5b342abfe1b11f1e696c975f350872a"
+    },
+    {
+      "path": "references/database-guide.md",
+      "bytes": 3202,
+      "sha256": "4836f7d36816d3b66d50a8c4e8504808f1c4d61a464c2e7c8bcddf5e116ea4e2"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/大标题单列型01.md",
+      "bytes": 1056,
+      "sha256": "e29890217ae277429a441191fda1ecdc15ac5f3de9fba9d33b41d1aa70c1093d"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/大标题单列型02.md",
+      "bytes": 1056,
+      "sha256": "d584a5d4a1a84bfcdf14352d3dad2c89692bb19c86641dc06986af00bdf60ef7"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/大标题单列型03.md",
+      "bytes": 1056,
+      "sha256": "9c146d3e167b364cf2f165fb9052e808abbf03c4b71c65374489f13d02b83b54"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/大标题单列型04.md",
+      "bytes": 1056,
+      "sha256": "66d2d21a5502186632856e78c38966ad07151c07b93590daa308d63b5d458d97"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/大标题留白型01.md",
+      "bytes": 1065,
+      "sha256": "93a7a09b0a5ffe4aa96d903831839c04c57e4d210915ee6590999230085b9c03"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/大标题留白型02.md",
+      "bytes": 1065,
+      "sha256": "33a42b361931e9f11e3f4bdb3ff47996dc476e244b4e046daa9417f119ebab69"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/对角平衡型01.md",
+      "bytes": 979,
+      "sha256": "c11ec633c9edb1ed56dea1ebd64bd43950c8766674675646951010acf8ecb268"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/居中分区型01.md",
+      "bytes": 1035,
+      "sha256": "021ee328d72e2d22bafb21ec6144516274001b2b183be7a0ca58eb64445aee02"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/居中分区型02.md",
+      "bytes": 1035,
+      "sha256": "8805884aeb7a95e8a1cd7abb9be9e49d7ff415b3e11bcaed1ab0933ad9e42004"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/居中分区型03.md",
+      "bytes": 1035,
+      "sha256": "887ba3f1a3dae0c9324a4eea8441ee63a01cb09f6f7c8ca5cf629c2e1a7024cf"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/居中分区型04.md",
+      "bytes": 1035,
+      "sha256": "2c0d0e7bb9a2a2e3ea0c4ac3292b72c45e06a42da9b36faff92175ee8b74cb1f"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/左右分栏型01.md",
+      "bytes": 1008,
+      "sha256": "025010abd6579459e84c091b80d79dd0b0c4f21583a3c1495417ea1fac3fb793"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/左右分栏型02.md",
+      "bytes": 1008,
+      "sha256": "674fcc9ed3db7979342a4ca443c742bd033bc1f4126e763d19ff388499af6608"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/左右分栏型03.md",
+      "bytes": 1008,
+      "sha256": "afff63f5c472ec69a1db7b3f7128b11da84b8f243d6cee27b1180b911f4716de"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/左右分栏型04.md",
+      "bytes": 1008,
+      "sha256": "a546b386786c3a05843f7402ce66aca7b1f57311e333b47b3560aad53155ca65"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/左右分栏型05.md",
+      "bytes": 1008,
+      "sha256": "36a7a005400e9f43312bd4828b453752632e20dbde1214edbacd7ccc10fc3d12"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/左右分栏型06.md",
+      "bytes": 1008,
+      "sha256": "0de6f389ec4848545e23387535f567675942f88ed64072710cd62dc3404544f5"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/竖排错位型01.md",
+      "bytes": 1035,
+      "sha256": "53755af380cf38cfdbeb8fa25dbdff5c54c4ef55df4b84e10927d35c07ce672c"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/竖排错位型02.md",
+      "bytes": 1035,
+      "sha256": "b19d3c091248b85cb58498684fbfbb962240885bc031f6c6cecb75c964ac8f79"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/网格矩阵型01.md",
+      "bytes": 1005,
+      "sha256": "6b09cc43c4fa3829792a608195bae64d24f40d5c5e010f70532a49b8d39b075d"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/网格矩阵型02.md",
+      "bytes": 1005,
+      "sha256": "56369d5b29fbb09eadfce2c929cb3f26ff572bcf96cb826dfe0efe68ce6d648e"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/非对称留白型01.md",
+      "bytes": 1080,
+      "sha256": "896debd6db79a5e7fa80b1b577ecdbc3fc3aa138b8b11d4ef4846d4707fdad28"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/非对称留白型02.md",
+      "bytes": 1080,
+      "sha256": "8b0b88eeb135ae4819f16a9aa50c2b39eb50cb1ee7ac86da45806985619dda1d"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/非对称留白型03.md",
+      "bytes": 1080,
+      "sha256": "5c19828384b2ea71621f2d85287560b9f7a90f6a73fb4c7088e765773951f5e8"
+    },
+    {
+      "path": "references/databases/layout/abstract-cases/非对称留白型04.md",
+      "bytes": 1080,
+      "sha256": "21d5890ef255ce26ebefc48dd903426ec5310b904c35d7a1cc5b367ba0e9fab2"
+    },
+    {
+      "path": "references/databases/layout/SKILL_中英文版式增强.md",
+      "bytes": 27301,
+      "sha256": "5eb43b11a31bdace0f6207c95688d49526ceefafaffa72dcb2a209d5dfbe9088"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/中研院开放日科普活动01.jpg",
+      "bytes": 136491,
+      "sha256": "15e39e49bff4fd469b019096ba41f68b72194f0a5f265816ac50be9f5fd95658"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/主题团建徒步活动01.webp",
+      "bytes": 35378,
+      "sha256": "08989c144e73feffda16540ebbd28fc8b7f325b67f8e44c744892dc4c8b2bc5f"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/五一长假漫游计划01.webp",
+      "bytes": 62260,
+      "sha256": "94204d660d6a3c96e8b5d3a1641c2938aabb0e4f39e7b80751e0edb9ad477241"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/交个咖友咖啡节01.jpg",
+      "bytes": 173741,
+      "sha256": "cb918027dc7a0eab53963bd561fbc0582a452b22232033fb5256cf06a1a404c0"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/便民暖冬志愿服务活动01.webp",
+      "bytes": 162346,
+      "sha256": "4d8d1dd922dd2cde5b7273d066a421b9f616fdcc96a8eca1127b7539825009dd"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/保险必备知识01.webp",
+      "bytes": 46206,
+      "sha256": "fd736408c1dacde2b67fe693d85867bc1f5f38cadbb9d35fc8f0d62984deac4f"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/养老产品分类科普01.webp",
+      "bytes": 40622,
+      "sha256": "0e5b2cb52493a0b917f0a736213bf3aa3c4b6094ed62bb4f5ee0fbeded71034a"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/劳动者休假法律常识01.webp",
+      "bytes": 50264,
+      "sha256": "3b8d641d2c14321594a8cd5980572136f137ee91a6efc640f7e0cf0c77006acc"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/台北田园城市活动01.jpg",
+      "bytes": 242412,
+      "sha256": "64509ac0871119e04ea3772107bd203788e0a4ead45ca02f497552f67b32607c"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/台风天气用电安全01.webp",
+      "bytes": 315038,
+      "sha256": "c5848211d3d0e06d750b87d40735cafeec2feba0276eb3cb42aa8ce4e7470a7e"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/台风天气用电安全02.webp",
+      "bytes": 361526,
+      "sha256": "ece3cb30f324ee82ee97bb74c49afd81e8394fd54634f08ac62a0e1f4f3179cd"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/台风来袭紧急通知01.webp",
+      "bytes": 52036,
+      "sha256": "20f601d2446946b82a445ebae5a9a1aff5051edd2e8694844b46018474047ef4"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/台风防范指南01.webp",
+      "bytes": 435126,
+      "sha256": "3d50916828a499391d86841d2de6f63ed448a662a6547fa1f194308ab3fa8e57"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/员工健康体检通知01.webp",
+      "bytes": 58048,
+      "sha256": "130587f89d0c3a239b7e8fbd8fb1c70b270b5e9428ef7ae151a5de195aabb836"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/地球日共创招募01.jpg",
+      "bytes": 131712,
+      "sha256": "75987257749e5dcc068dd3b809fc44b414b2354f9f62fd67400a98361547e0a3"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/城市内涝避险指南01.webp",
+      "bytes": 198622,
+      "sha256": "df876715a53588ffee2378456bdbba1c14009ee980e8c6f4b603c480db74141d"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/大邱青年财务培训01.jpg",
+      "bytes": 214552,
+      "sha256": "4b362299bd2e1f492fb20cb63b01ac7d4a7aca6d52958820e18b258b0254ee1e"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/小区停电通知01.webp",
+      "bytes": 51292,
+      "sha256": "04c2752239155042613b0d191147df30fb6fd7981ca7afab0442dea257ef7090"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/志读水岸生活节01.jpg",
+      "bytes": 253313,
+      "sha256": "e4aa382442d45f2ff92790a1e724b68982d452599e2fd70e96351023f3555302"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/慢游市集入口导视01.jpg",
+      "bytes": 416238,
+      "sha256": "63caa6ee5e230a0d6a4c385d994d306a620710e00b6310ea9fce442898855cb5"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/户外咖啡季活动01.jpg",
+      "bytes": 119243,
+      "sha256": "e92a8fc2d96264a33d585a2c84676cb78d2c219707f5fc9937b58417a606520e"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/敬老便民公益活动01.webp",
+      "bytes": 52246,
+      "sha256": "abfe4a91ea0f9ec9bc75811e545a6abaffbcec6a020d7fddc8db1043a1397ddb"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/文明养犬宣传01.jpg",
+      "bytes": 140794,
+      "sha256": "29af137f1f8da221ce0f64528b3f521dcd1eebfa38a2fc8d1605f84af7401a61"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/文明城市创建宣传组图01.webp",
+      "bytes": 145030,
+      "sha256": "e00fb980f1f0c135ef026b8e31c7a85a5874c6f432239e81bafb5b63454b0657"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/文明城市社区宣传活动01.webp",
+      "bytes": 44166,
+      "sha256": "39f62b43b013ebc17ee91fcf4cd67f9e8ea901ebcf642d7a1e7e31f16ecd4209"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/春日限定遛娃计划01.webp",
+      "bytes": 77356,
+      "sha256": "c1fce2e792d5df79f53824fc955faa9707afc68739ecc9df442b35974ab171d1"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/春日青年市集01.webp",
+      "bytes": 61940,
+      "sha256": "d20d40619b33ec0d81b2aa68510d46db33e1c8b327bc58bef61a91ad24c85eb3"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/春节防疫科普01.webp",
+      "bytes": 53390,
+      "sha256": "14863e126b4fb8d8990bd85e3b3b6c6a1a727afb25b9045953914ed38600fdd9"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/景区开放通知01.webp",
+      "bytes": 43234,
+      "sha256": "33cb5ac74a4ca3401a4e5316caa9ad582d136791a083ba582253b8bbf52d46f7"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/暑假安全攻略01.webp",
+      "bytes": 78090,
+      "sha256": "e21edfb229d2e0e23dea4ebb9efffeb0c6d713b7c4899587ae550d8f9f9e8f02"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/毛手毛脚萌宠派对01.webp",
+      "bytes": 148740,
+      "sha256": "cda633cb45dc7529b39d1802948d6bb12b7636a8830040638d813bc5f0cad2d0"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/民生大事件资讯01.webp",
+      "bytes": 49444,
+      "sha256": "374da3e2adbb905262b5de0f542c723df263d305906b081a978f46dec3e0f986"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/河南暴雨防范提示01.webp",
+      "bytes": 339254,
+      "sha256": "890178ac2b3de8362b5edff3a7749fb1fcd10d8b9e3448707558ef9704e18a8d"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/深耕社区治理宣传01.webp",
+      "bytes": 58466,
+      "sha256": "43cb1b907ed5808fe8b0a0e0da5ad6c3d367dcc3fc145318cfb6967577682c50"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/清明返乡个人防护指南01.webp",
+      "bytes": 45402,
+      "sha256": "517bb4a3b93aa0538a899230e3fccfe19f63a8dcb0fe0a38940c7055ae8a5270"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/生命通道高楼防火01.jpg",
+      "bytes": 362409,
+      "sha256": "b3c71828eb484f26182e80f17ac2a438210eba789d135f1f04a23a3657580973"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/社区一周活动预告01.webp",
+      "bytes": 61034,
+      "sha256": "43974626895ee60215f10cd1080a385aa7dc8bc571d521155d0f67a86a23ad69"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/社区便民服务活动01.png",
+      "bytes": 389315,
+      "sha256": "7e5005bde9d51ab535651d432f92535f15de7bebdba0cf6b682cd8d0e6f216ee"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/社区小家电维修公益行动01.jpg",
+      "bytes": 259183,
+      "sha256": "2d7a44df605ac9f5fbc6e6a4c26589a913eccf87a40bcd6e7368c5b6d715ee45"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/社区敬老服务01.webp",
+      "bytes": 41974,
+      "sha256": "2954b751672d1e8f626e0066719331253d18dfef548b14763aa85c0b9e9c26af"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/社区治理共建共享01.webp",
+      "bytes": 54662,
+      "sha256": "947daa8ee16b04315cbcdc201eda34c629aff321c4bd9818e1f45a61799c77ad"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/社区生活节01.webp",
+      "bytes": 91494,
+      "sha256": "bca5e8d680178f89d9e2222a347974e479c6fcf648db404ae068620410399d10"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/社区田园闹年会01.jpg",
+      "bytes": 109473,
+      "sha256": "71626ce924ef1926017a9319639491d8e458d54e8ae409bdbec7aa9298cbb9e8"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/社区高质量发展宣传01.webp",
+      "bytes": 83510,
+      "sha256": "9f7024281aa51599cf620341b408f3b39bc1aac22f537edf6ebe9bb986dbf415"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/端午亲子活动流程01.webp",
+      "bytes": 138980,
+      "sha256": "75101cd860c1a7acc759d843f6a507c10e28b8f9a462d8c415f202ca4e6ae362"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/老年保险消费者教育01.webp",
+      "bytes": 43824,
+      "sha256": "06342bc73b6a19b7008f7a37783a63f33d3c0b03632eca6bebe15b05153ca0c8"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/设施维护消防安全01.jpg",
+      "bytes": 314254,
+      "sha256": "bb44216eb2c4ecde3a076960ee42a15cc4387818162411c71e46ab11c2dd491d"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/道路交通调整通告01.webp",
+      "bytes": 33958,
+      "sha256": "02893f5273f6eef03687e3138c9efc38e930875de53b06649f6c67fad262a449"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/邻里市集敬老服务活动01.png",
+      "bytes": 849146,
+      "sha256": "f06d6824d26d7534a70bc587331afcb49b57b2d67a829b9bbd3bd6807d83c802"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/防灾减灾应对指南01.webp",
+      "bytes": 263904,
+      "sha256": "6e514292b84c4ddaa927c6a20e84863b3d55a6557bf8ee5a87d8c9884c05ce00"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/阿那亚红酒奇趣跑01.jpg",
+      "bytes": 183761,
+      "sha256": "c753b9e77f6d479743e0c3c1e39dc20e37fcc5a55a09a0706b6a93548cdc77f3"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/具体版52/高楼消防用电规范01.jpg",
+      "bytes": 330787,
+      "sha256": "a92068e3ff11094b46d6e48c7cb2d68a41431a31704609fa0f4343b1a585c9b0"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/大标题单列型01.jpg",
+      "bytes": 186812,
+      "sha256": "51b9467b03fd70c214cc2b48e863befc4971f0e63a9236707035818b7634674b"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/大标题单列型02.jpg",
+      "bytes": 163583,
+      "sha256": "734ca8538a3cd8cc205f4b663b1163fa216cf73d923c8c276d495a03a55667ff"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/大标题单列型03.jpg",
+      "bytes": 158174,
+      "sha256": "3b87ac5e6e81b2f28e12ff14ce1d86a553b59e8d2a2c9495effacabb140c25ec"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/大标题单列型04.jpg",
+      "bytes": 186095,
+      "sha256": "2991c9244b09519d96e630f2410b6962798fac70e49d130ba959cc16b5cd6fbc"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/大标题留白型01.jpg",
+      "bytes": 191934,
+      "sha256": "091bcd938168a89f805c80102d26ea4210f046365c267c9db8fb1027e93037a0"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/大标题留白型02.jpg",
+      "bytes": 121435,
+      "sha256": "5a5ccd5ad711b64f31d5d3080c1b6874f97a3063d9c50664b5893a8513c50e6c"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/对角平衡型01.jpg",
+      "bytes": 159328,
+      "sha256": "3b97ea80d6b827234ca77d5ccdb0a593f93948ab5cc1f1c13d370ab8802d96e0"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/居中分区型01.jpg",
+      "bytes": 222286,
+      "sha256": "e55075c8dac0ea5f382cfc71bdbfc33ed88687e301cc63720d9d6d1b13d8c45c"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/居中分区型02.jpg",
+      "bytes": 169175,
+      "sha256": "1f663317abe5ca154141f954167046e8473ca0171fe6056d1f7f603aec5516b6"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/居中分区型03.jpg",
+      "bytes": 157166,
+      "sha256": "9c73c45653e042ccdeef0c201eb9b7bd1fd8ea0b30253ff652c39b8f43603616"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/居中分区型04.jpg",
+      "bytes": 166006,
+      "sha256": "cce9cf81cf76b92e60294bdfa85cf243fc08719338151048a439738b3ebe2722"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/左右分栏型01.jpg",
+      "bytes": 224173,
+      "sha256": "15663b8ce46192890bb2d9d6d37bf0a011c40ae87b45d9897f61740390b9168b"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/左右分栏型02.jpg",
+      "bytes": 178886,
+      "sha256": "e4125472b26dd309fd0b9fda355f48e043a96710653c43cacf9e2c58103ee107"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/左右分栏型03.jpg",
+      "bytes": 156677,
+      "sha256": "348364cd7ef3bbfffecb28b99f9692009935828a8b70426c5ccc4b4f66d2576f"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/左右分栏型04.jpg",
+      "bytes": 157390,
+      "sha256": "d48af467e71a6e7f8a9db4f2bbf4158579554e0eca7e0062efd6536b87e9140b"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/左右分栏型05.jpg",
+      "bytes": 170134,
+      "sha256": "2c75194cd330edeed233de67282e2a1e7a333ddd0f63f620eb4a595f0dc5d0b7"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/左右分栏型06.jpg",
+      "bytes": 145933,
+      "sha256": "fa8cfcf2ba94b72dfb59e84aa693dfd6fe3ee02a1ba27db211c361ead7bb0ec8"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/竖排错位型01.jpg",
+      "bytes": 189915,
+      "sha256": "da44b8a8a91cea07658eca709230ab3af94c5e96a7ecdf2d27961f6387af2dbf"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/竖排错位型02.jpg",
+      "bytes": 170242,
+      "sha256": "c83216f09b8b47b7d51ad250d7acef32340cd6c2cf747058db15394dca3f96b6"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/网格矩阵型01.jpg",
+      "bytes": 174530,
+      "sha256": "33f6f688c839e6a94d8b21795c27c0f783d932c0ff0051ddd27a74394c39e344"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/网格矩阵型02.jpg",
+      "bytes": 179442,
+      "sha256": "0395de7a509001a4436f0a07e1c077bc6bc262861b41f506de2b99d1047b159e"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/非对称留白型01.jpg",
+      "bytes": 152527,
+      "sha256": "8dc5c86c44defc454525920af217ef398d6fd1f1fc67b04d148114404a526f22"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/非对称留白型02.jpg",
+      "bytes": 172535,
+      "sha256": "4dbca0964d702a7ad3dfdea39fed031f1644ea932adf2548090f7d2f4cafa89b"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/非对称留白型03.jpg",
+      "bytes": 181160,
+      "sha256": "8a13cf9e9a69c26ec6bebfa69035aadc543740d027ebe82a98cb1cd4d5433472"
+    },
+    {
+      "path": "references/databases/layout/版式海报案例/抽象版25/非对称留白型04.jpg",
+      "bytes": 178439,
+      "sha256": "5d67ad24591e03bc9dee858f66e6c36421dc49529b45173166c7af5a363d2603"
+    },
+    {
+      "path": "references/databases/layout/社区服务信息版式数据库_最终增强版_完整填写.xlsx",
+      "bytes": 3141287,
+      "sha256": "8c818680186195287b769ae1cdc1b21ecf46cbd991221c9998c8af6132dbb8be"
+    },
+    {
+      "path": "references/databases/layout/社区服务信息版式案例库使用说明书_中英文版式增强.docx",
+      "bytes": 49057,
+      "sha256": "249c9e71bdd544210fb6d8dfc3710a1ca533dc82aaca550143a599758f99f5c1"
+    },
+    {
+      "path": "references/databases/style/cases/S01-C01.md",
+      "bytes": 4349,
+      "sha256": "d4d35ba333c2fac7f9a4aec5113b6fda00c29fc50fe7a57a1dac823eccbec247"
+    },
+    {
+      "path": "references/databases/style/cases/S01-C02.md",
+      "bytes": 4196,
+      "sha256": "a2cc4e774a4b3f7b1e9b3ec24909ac184597d25511c675127ca46db28bba651a"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R01.md",
+      "bytes": 1169,
+      "sha256": "90158ffd78b79e3d71d0c34af93ca4e279714ba31e770af813c527ac748b0a76"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R02.md",
+      "bytes": 1066,
+      "sha256": "903c0129213cdfe44c2524a5f1d228afbd0860ef089a948c1d8e65e3e971f5b8"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R03.md",
+      "bytes": 1131,
+      "sha256": "658048f507a40e9eca5691d81f031aa5c28d5cc314d29ed4e21826bc1bbf25d8"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R04.md",
+      "bytes": 1125,
+      "sha256": "b7e8fe1215c621f9194f71ea3d6bdd17241c9be8b9638c22d3a8db530ce0f238"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R05.md",
+      "bytes": 1153,
+      "sha256": "2db89dc53d5297b8e8aa9302455ee2b946bd00c7cfb8dc495ef4a780728b4dd4"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R06.md",
+      "bytes": 1150,
+      "sha256": "58755ed5c074aac8ffc12dcea659dd4ff313ee0c95d87986cf9c18ea53acb800"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R07.md",
+      "bytes": 1156,
+      "sha256": "8d19324b5b283d3f28c24b2b5fdf369fe2d9d1e98ed38fefc297782afec64a91"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R08.md",
+      "bytes": 1071,
+      "sha256": "811fd6a278c5a1cdbcc831d4d482491bff93133e7a6d1b0ac09d65f13c8a66aa"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R09.md",
+      "bytes": 1095,
+      "sha256": "dae7e150afcfd265d9c0fbd524bc77894a22c2132cf3659833d0e2a912e1af0e"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R10.md",
+      "bytes": 1089,
+      "sha256": "4e2c03b65ecd9215cd1540505fb895109cc0d319072520ab29011da2f79073a6"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R11.md",
+      "bytes": 1105,
+      "sha256": "baf29750f7d986998336d3b9ac19c0041b5aa3ceecdad32eef931d7e3ef9777d"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R12.md",
+      "bytes": 1115,
+      "sha256": "36a890872b8d23c3dafc904b0fe0aac854aa2ed9d27a2d269dda4d5431644b90"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R13.md",
+      "bytes": 1115,
+      "sha256": "56acee07575e1dcd020d99cebe6da15410b8c8c24a754d4250f7b8d9d05a65e0"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R14.md",
+      "bytes": 1174,
+      "sha256": "7a57bd0393fe5db88aac2a323903e9710010f9873be23428c4bdad24f1cec185"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R15.md",
+      "bytes": 1186,
+      "sha256": "0c97ccb0a27aba6936bbb74592b0de8129b56c3156b53791b8bc77b83cdf799c"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R16.md",
+      "bytes": 1169,
+      "sha256": "a38705f37eb3018dd1c8f97b2a1fc57ee10df3ee20ce963694f39b9931ed5916"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R17.md",
+      "bytes": 1169,
+      "sha256": "10a5658dd267c7b0eccf20698b2f4c4d1601e60c92847c0b05fd9d9980945dcb"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R18.md",
+      "bytes": 1175,
+      "sha256": "d773c2b1e236af9fcafe93a7148d7d751f03a7a0cb07ee9e3b2869cb6632787d"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R19.md",
+      "bytes": 1151,
+      "sha256": "57e770b3bb6353bb78267a3977422e9a1c7ec9c38450824ecd5b81ac21ab9ae3"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R20.md",
+      "bytes": 1147,
+      "sha256": "ecdd1bd78b40ceb3c0e588d9ef5659934bc028c54be48fea3844ae6b01281752"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R21.md",
+      "bytes": 1086,
+      "sha256": "570dfed0e972bb9c9e4977dd485a0135b93d25ffa2900d35b8aa216ba2a6e0dd"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R22.md",
+      "bytes": 1104,
+      "sha256": "075fb6edf0f49b33e397d6d19403d30253c6dbdd18c3fc1d7f6ef00aac4b3a02"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R23.md",
+      "bytes": 1095,
+      "sha256": "576a6fb1dcc5fc9c7d8aaf1738379683eafb227e38be62cc2329231d5b354443"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R24.md",
+      "bytes": 1102,
+      "sha256": "d42db8ee7edd10757a21ddca75bd5bc65cd12a1b6e754d704f938f8ed0fc4b95"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R25.md",
+      "bytes": 1108,
+      "sha256": "6438ba119894fdf6bd6ef53ededf310f51ab1f3072ef899991a6703ee421993e"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R26.md",
+      "bytes": 1147,
+      "sha256": "19dd001708800003082d12609fe4f93aec36563ab0341af7eacfc3613e42a3a6"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R27.md",
+      "bytes": 1090,
+      "sha256": "b1c9fd21bf37b699c31683002eb0994e5678fa4ec064066612025370b991b428"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R28.md",
+      "bytes": 1130,
+      "sha256": "67a6ff7113f631731a435879319bd59aa645da00e5ac4b4b3524c57fb43e1637"
+    },
+    {
+      "path": "references/databases/style/cases/S01-R29.md",
+      "bytes": 1130,
+      "sha256": "7543baf21ddfd9a442e3eb2ad663bdf91e43518f2eb7611c532be94fe2489d81"
+    },
+    {
+      "path": "references/databases/style/cases/S02-C01.md",
+      "bytes": 4161,
+      "sha256": "77d27ad3977e9de554523ba58a553365c7d45c99117f938d4a84f634b91e11a1"
+    },
+    {
+      "path": "references/databases/style/cases/S02-C02.md",
+      "bytes": 4084,
+      "sha256": "e506bb5aef870f52d800c2e1e5a44122d701e78169ddb1b424a21f33dbbca4a1"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R01.md",
+      "bytes": 1121,
+      "sha256": "4457d56734751ebe23807d5a5645b06f9a29b965f572d248e4bec1662c67ce54"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R02.md",
+      "bytes": 1093,
+      "sha256": "764421523c7da28f453efcedf726c05d9073069a96809f5331101fd05babfc09"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R03.md",
+      "bytes": 1170,
+      "sha256": "6458706d8dd0ac0dc4c85ce1ef2f68515a06ddbb938fb5fab82ba6a391a9215d"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R04.md",
+      "bytes": 1159,
+      "sha256": "b4e150e88322fe7482c989679f055ac03d28851b96f38cfe1533083fbc56d4fd"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R05.md",
+      "bytes": 1144,
+      "sha256": "f02f0067208a9a9874ac22a4ca541fadaf2180cbff260b5a2831f920c64575a1"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R06.md",
+      "bytes": 1108,
+      "sha256": "5266257815d713831b591fe4da3e2e6f1cb224c01baedac42cf0a13b323e46da"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R07.md",
+      "bytes": 1202,
+      "sha256": "2f9f88560ba3f921705a0e10f8e6635e3cf6343b187269f8c779c1a636baba04"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R08.md",
+      "bytes": 1194,
+      "sha256": "b948c3eeecf5e1f2d4ae290cf38f2c2b3f93f53a7e7e4411a12c0e64be0bd4c4"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R09.md",
+      "bytes": 1191,
+      "sha256": "ca5b5b9bdba76bb2de7af6dcc9df2f981be46b7be1169b68ab346f9c7631a48c"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R10.md",
+      "bytes": 1195,
+      "sha256": "386e430090dd8aeb7388839e0388dc889d15808f366761e2252467d005dbbd5e"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R11.md",
+      "bytes": 1188,
+      "sha256": "b49ec580e324382bdd09c089aa57fc5a4ceacb37b161c7745a3c11db1498c3fd"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R12.md",
+      "bytes": 1191,
+      "sha256": "02c74e6faf01bf02bee7f5086a2fce85b37b8d24ff022b81857b9def9e606672"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R13.md",
+      "bytes": 1155,
+      "sha256": "b1805f962c102bfeb2b12fa09290aec04914690f6dae65261af0dee7633e608f"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R14.md",
+      "bytes": 1133,
+      "sha256": "2665b6e9d1530e574a2f81839da5a5487e6ad2053dbbf585dd2224ce528637e5"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R15.md",
+      "bytes": 1110,
+      "sha256": "41d54c2f1e33b3f31b8e34a424c8ee32e90eb8c8be5169aa73c4e30e844fd185"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R16.md",
+      "bytes": 1113,
+      "sha256": "92357dfb78ef57f53b4bab7427ab632ca31c0cbf3ca50d38a7d2f37a52d8b5d5"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R17.md",
+      "bytes": 1110,
+      "sha256": "41b73147b4d0c21de885ef2ae4c3f8a654b5839d97196bce596f43c6f8a70ec1"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R18.md",
+      "bytes": 1110,
+      "sha256": "94cac4739765f32c58414d97f0924d88ec0e4ff553e72aaf50d39e38cf4e8c29"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R19.md",
+      "bytes": 1225,
+      "sha256": "f422018db6bd6de24bc46393105601e105a97f18468190b65bffc8691cf03031"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R20.md",
+      "bytes": 1055,
+      "sha256": "bdf370e360f00af5b6c833105db535858763d070758e2c72b732eb7b9de7ca17"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R21.md",
+      "bytes": 1178,
+      "sha256": "e7bc3de96e15c0dad33bfc01cde26b665a1d8f682d0eff15536c12aeb316d3f5"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R22.md",
+      "bytes": 1181,
+      "sha256": "a0a54f455e04eb80b795912db433e5518e4c7036e00eee9971fbfdc7a9d7611d"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R23.md",
+      "bytes": 1184,
+      "sha256": "3905c3009223495d1300171c10397121d743645da998dc53ff3241a2dcfca8ce"
+    },
+    {
+      "path": "references/databases/style/cases/S02-R24.md",
+      "bytes": 1096,
+      "sha256": "24a4a599eb87133a55bd8da2e173b27257dbad161177d50749b68eb8ec66e3f7"
+    },
+    {
+      "path": "references/databases/style/cases/S03-C01.md",
+      "bytes": 4119,
+      "sha256": "6378175586f19b2ccbed7b6d3b5e5d4750df35e4063c2b76a197f8acb764c3b0"
+    },
+    {
+      "path": "references/databases/style/cases/S03-C02.md",
+      "bytes": 4142,
+      "sha256": "7835f9281bc094683d6123d2f976c83a88b1189a63df13d2fde56bbb26c165d2"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R01.md",
+      "bytes": 1157,
+      "sha256": "be686bad72a574e2606caf0fad1cb0ea96cda21e9007933308ab5a3f3ab5173e"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R02.md",
+      "bytes": 1148,
+      "sha256": "c035ba321c7bc8b19070d2f94d63cb495f547067c5ef4d47cd5c50a7b699e878"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R03.md",
+      "bytes": 1139,
+      "sha256": "5757b7bb5dd51ddcf4c81d8a7c6442880ed8ff3aa3dc42c9ee60b43eaf5d6546"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R04.md",
+      "bytes": 1127,
+      "sha256": "cd54b8219384b0c174ec1aaf1d33a17b0fc6b1a57f9dee14a2686c97c8abadf1"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R05.md",
+      "bytes": 1151,
+      "sha256": "d8a7b2c65a73018f3fce74942293e357ea147b85af6edacde9695f1ae1cf03f4"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R06.md",
+      "bytes": 1182,
+      "sha256": "26ef99d98bd2a76dd620cbe155a2cb887b5784d8e8d213e653bc1f41d319da00"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R07.md",
+      "bytes": 1185,
+      "sha256": "420adbd1d9cf6a48a2189e0f78bab2adf3aa22ef1e69401c7eb55aa8ce89669b"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R08.md",
+      "bytes": 1158,
+      "sha256": "ea270c1008c3f88d1224d1ab2d19c09f8fb1487cba113cc71edce27a1b59b690"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R09.md",
+      "bytes": 1179,
+      "sha256": "3b6391c349e26c52560c715062fc424eccc2aca23ad7858531e0bcf3d3ed5c9d"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R10.md",
+      "bytes": 1173,
+      "sha256": "132b2b043ea21a9a61c9c1906fec73dd8f5deac8133ccb27d98bbdb87c507837"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R11.md",
+      "bytes": 1164,
+      "sha256": "cedea95952ac89bfa16de38c8b68e9e06b0cff3a58f16177af769d7ecbc73525"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R12.md",
+      "bytes": 1170,
+      "sha256": "071d0c4f197fa5d992130f444bf7dfaf9b0f1886b1eb6ee2e680f7b0142db548"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R13.md",
+      "bytes": 1086,
+      "sha256": "4891743e6fa12b22e001b9c38094dd1c4dfbb4c7897a06fbfed8d79e439c2dae"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R14.md",
+      "bytes": 1146,
+      "sha256": "f242894139ae5a88cb142cd6d90bfdb982c513c211dbf3cf874535f2bae1581e"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R15.md",
+      "bytes": 1161,
+      "sha256": "123a95884263be6fe68281baa2c3132c2d352654d51e3d134b1fec7259a2267f"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R16.md",
+      "bytes": 1161,
+      "sha256": "3d163d538033cfe271dc85cc1075a78a4e17cb66996721d014ab08e89ff92898"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R17.md",
+      "bytes": 1155,
+      "sha256": "58429367795c795a058dc1e5967c7214aa031ec172d12a45a62c36eff29467f6"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R18.md",
+      "bytes": 1131,
+      "sha256": "7a9be1eb14461a454356710e11f9c2e7ea5c8eadeca1e059b5d6e131ab341ff7"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R19.md",
+      "bytes": 1158,
+      "sha256": "201e72682a174ea38f41f10c1dc1e65d289904af58585da560e582d53a30a6b3"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R20.md",
+      "bytes": 1109,
+      "sha256": "09fff66b3171ceed72b93d07d4b8b1b2d80f86d1556a8c0321516cf7731c4986"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R21.md",
+      "bytes": 1092,
+      "sha256": "97320b8a8dbf78bc5df8fe19f1d9cf432469be1fc351ca7f745695aa4bf3395f"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R22.md",
+      "bytes": 1135,
+      "sha256": "caa47aa6e50ac6dbb44042256e0d943531e9b78868d80c7b73e793597532fd6d"
+    },
+    {
+      "path": "references/databases/style/cases/S03-R23.md",
+      "bytes": 1137,
+      "sha256": "5c416a1786aa770900a7c128ecac6d8026de3850dbbd91dd8ce354bae2e042df"
+    },
+    {
+      "path": "references/databases/style/cases/S04-C01.md",
+      "bytes": 4144,
+      "sha256": "4b18d46305e8e3302cd5f7b40b591893dec6b0d725ec7abe442bdcd6cb909683"
+    },
+    {
+      "path": "references/databases/style/cases/S04-C02.md",
+      "bytes": 4123,
+      "sha256": "0d2fa66622a63702b80b503ce8002dbd1c9e426d8e8ce17e5aa8341cee9fa856"
+    },
+    {
+      "path": "references/databases/style/cases/S04-R01.md",
+      "bytes": 1138,
+      "sha256": "df93f37895f7b01c5d5bfcbf33b0a832d2b700634cbc470a964ec98da2075e37"
+    },
+    {
+      "path": "references/databases/style/cases/S04-R02.md",
+      "bytes": 1225,
+      "sha256": "32865d69f9313e103b2cc3913d067bd9298e74f0542e8b2a71063d59ab3065d3"
+    },
+    {
+      "path": "references/databases/style/cases/S04-R03.md",
+      "bytes": 1234,
+      "sha256": "79a390752f6c078ebc2d524cea3083e82978c498bbcb546824ef59f285ba25a1"
+    },
+    {
+      "path": "references/databases/style/cases/S04-R04.md",
+      "bytes": 1231,
+      "sha256": "1d7287387bae735a94e775dd9b2a51f3a0b70e1e74b5ea763a6607c501ceb6ca"
+    },
+    {
+      "path": "references/databases/style/cases/S04-R05.md",
+      "bytes": 1228,
+      "sha256": "0330df3e76820e7e8ca3fecf1c96d05cd86166e2bc5b1df0aecb923fad80d4be"
+    },
+    {
+      "path": "references/databases/style/cases/S04-R06.md",
+      "bytes": 1198,
+      "sha256": "5fb028c4f6af2fe58e210d73a547e9cd592c6beca62c7722c7ac8a9d23b0760e"
+    },
+    {
+      "path": "references/databases/style/cases/S04-R07.md",
+      "bytes": 1171,
+      "sha256": "a972e9e3ecb52cbaa91b87c41514f1596ce4d53037c090e6edcaf66a0e3d3fbd"
+    },
+    {
+      "path": "references/databases/style/cases/S04-R08.md",
+      "bytes": 1198,
+      "sha256": "75e66af69629863eaa7c8df759b89df1f45fb76a14ce9385e3366a5385a83777"
+    },
+    {
+      "path": "references/databases/style/cases/S04-R09.md",
+      "bytes": 1174,
+      "sha256": "94843f766f04177192583d67afb4a8ddc7bcf6dd96aca995f73d71066a02c29c"
+    },
+    {
+      "path": "references/databases/style/cases/S05-C01.md",
+      "bytes": 4077,
+      "sha256": "c62ae3b54161a7f54c429c5718cb8715f74f2984f936b34a306f79f2d62a92f5"
+    },
+    {
+      "path": "references/databases/style/cases/S05-C02.md",
+      "bytes": 4167,
+      "sha256": "c81ae3fa3ab74ed2cd777d5c1419359e3d651e2bc7a3c2bf5e2cbe0facb5cc66"
+    },
+    {
+      "path": "references/databases/style/cases/S05-R01.md",
+      "bytes": 1127,
+      "sha256": "809525a9215c72229706709d9ca406bedaed42630011879ec83b510e29548d47"
+    },
+    {
+      "path": "references/databases/style/cases/S05-R02.md",
+      "bytes": 1185,
+      "sha256": "a732aaf12c66261768fba8aa60710b53631d5d58434c8dc9cebf5c024ed043f5"
+    },
+    {
+      "path": "references/databases/style/cases/S05-R03.md",
+      "bytes": 1182,
+      "sha256": "bdc41da98a18d2ba3abfa5b8d23927bcd1480358481f4b81993db4ca26f8aefd"
+    },
+    {
+      "path": "references/databases/style/cases/S05-R04.md",
+      "bytes": 1098,
+      "sha256": "0c02f556fcefc661a268be29acd1ff9e3d500828b63f0736e6001fc824bb0809"
+    },
+    {
+      "path": "references/databases/style/cases/S05-R05.md",
+      "bytes": 1078,
+      "sha256": "2640314f1c0062227ef00b62a8771cfc6ad0097153c34d676b4bb06edc6879ba"
+    },
+    {
+      "path": "references/databases/style/cases/S06-C01.md",
+      "bytes": 4126,
+      "sha256": "1d65551e80641cf23f28c5eead8fe428e2df0f307a9e307ca2aa042f997e82d0"
+    },
+    {
+      "path": "references/databases/style/cases/S06-C02.md",
+      "bytes": 4114,
+      "sha256": "70fa46ac7d045aa98cd334baf02dd4f4c757ae3e633b578947c9a07a92d150ab"
+    },
+    {
+      "path": "references/databases/style/cases/S06-R01.md",
+      "bytes": 1106,
+      "sha256": "73678468faa6b28baee9eef5156888882c745fee58a4a49edfceb5c3ee6791c3"
+    },
+    {
+      "path": "references/databases/style/cases/S06-R02.md",
+      "bytes": 1158,
+      "sha256": "a150f9ed70b6adb82fbe2dc225cbceb46a102a424e8e3e0d6e39a77e9c89e7d4"
+    },
+    {
+      "path": "references/databases/style/cases/S06-R03.md",
+      "bytes": 1243,
+      "sha256": "a99156bdb838c8b9570f3dc738adbcd9e026476a8c77d19c80c886b063f6efb4"
+    },
+    {
+      "path": "references/databases/style/cases/S06-R04.md",
+      "bytes": 1234,
+      "sha256": "1606684338a5ef288467d594a28cbb2a9b818a667e2a76cdb0f65876c941109b"
+    },
+    {
+      "path": "references/databases/style/cases/S06-R05.md",
+      "bytes": 1234,
+      "sha256": "3bf32ec37f59f03f2b3e4b9512bd898067efdbe22c369d6efe097e93e98015d4"
+    },
+    {
+      "path": "references/databases/style/cases/S06-R06.md",
+      "bytes": 1237,
+      "sha256": "af688e5f560b1c37b73b7be30cd9abbb3f5809b680eaafa88ff8ef5de695ef1a"
+    },
+    {
+      "path": "references/databases/style/cases/S06-R07.md",
+      "bytes": 1234,
+      "sha256": "53625dfbaba04566b5dc177c0b35a0d1b85cad7edb8d84dd07a48026c9371e96"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R01.jpg",
+      "bytes": 816251,
+      "sha256": "bc3b4b9af1470a6ced6dcd432146c4ac2655dc3ed09a75a02980c3d11758f568"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R02.jpg",
+      "bytes": 696271,
+      "sha256": "031761ca8094538d06b799d4925feb68162b187060db8758c33dc9f54fc53aa4"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R03.jpg",
+      "bytes": 326510,
+      "sha256": "616b908c999dbc8193f6eeea34496b7fe3b0d15bd32849bffc0b7126e5966ffb"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R04.jpg",
+      "bytes": 363795,
+      "sha256": "9693f1604f56b62c0a2ee71b91f8d8d8427c72c4ff8253fb6546d39783f3d185"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R05.jpg",
+      "bytes": 366543,
+      "sha256": "a21b3b2c4e5780ba46b6f731557ae713f7f4d3ee8f40778fd412021b7a38d84c"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R06.jpg",
+      "bytes": 564011,
+      "sha256": "4f31869c0be82fd1bfe90954bd48ce65dd0f6d7c05ecdb0c98d5ede24e33beea"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R07.jpg",
+      "bytes": 280805,
+      "sha256": "fe83787011bf6dc97480825b486fc8c5fcbb3e0a02f713ce69fd8f14bbfb0a2b"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R08.jpg",
+      "bytes": 311188,
+      "sha256": "2cd8087d810b18b6175b05220268d496e637709a394c7de09d28346e54dcf9aa"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R09.jpg",
+      "bytes": 384456,
+      "sha256": "e2ffeaf9d31b20878037677cc8b8c85e04c6c4df0ba8edd37b24481942b14c7b"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R10.jpg",
+      "bytes": 294648,
+      "sha256": "bce278aa7be05a6be15d2435ad022618dec8c7dcd8c3168af41cc1cbd79b2caf"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R11.jpg",
+      "bytes": 261184,
+      "sha256": "2ebe1f11a64611bc51d275012dc19c9b8e0ba1077f2ec61466b6e4b64d562c10"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R12.jpg",
+      "bytes": 340227,
+      "sha256": "9b221085cf88d7955be1f0f5c91283396d66a163efa757513c66247af5087dca"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R13.jpg",
+      "bytes": 426856,
+      "sha256": "d30d75daf8b8d1835085b34439931496e3b8d5c8587740c29c8c366f461392d2"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R14.jpg",
+      "bytes": 409683,
+      "sha256": "0937546025b0ee5aa64dd63f383084a0b8ca74aada998f839dd27fdd57020fe9"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R15.jpg",
+      "bytes": 458531,
+      "sha256": "172226c07717deb1666b534f104ccc1b27164b105b5c32230c13a44f49e86bcc"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R16.jpg",
+      "bytes": 469345,
+      "sha256": "57eb48c3768f0733d9d215ce6fab7be29c3d292eebe13690b021abb7f18fb76c"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R17.jpg",
+      "bytes": 518475,
+      "sha256": "dda2aac3bc2209b036739237215d100e4895eb43c29b17b4db7ea37dc156eec4"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R18.jpg",
+      "bytes": 510560,
+      "sha256": "98c4f18a55de1b029e4ad93559c52e6884abbfdfe485277781650a20a39b624c"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R19.jpg",
+      "bytes": 241126,
+      "sha256": "8e2ae2213a538daff4c4f32689e99e9018c1d5f3311b3a78478c06c168c284b5"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R20.jpg",
+      "bytes": 432028,
+      "sha256": "6b302e1ac8e70e5ea43b9f2c31aaa5493bdebca629e91ac74785fa9415b23986"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R21.jpg",
+      "bytes": 378653,
+      "sha256": "dfed823c9c7ddeeb54f005c445e9f53c429500a8d2f7fb6041d2bb9eb67899d4"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R22.jpg",
+      "bytes": 439795,
+      "sha256": "b9a124ce789e4e9e707e41d4e9319602f7d5bc67d7ca606447b6aa04d041ce59"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R23.jpg",
+      "bytes": 338068,
+      "sha256": "51a17deb2e3b1b88707a55716935de48f0b5c192efcaa3eed54d8a820706940d"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R24.jpg",
+      "bytes": 1011182,
+      "sha256": "5a26349a3ee6a19c98941b0e62152c36a45d408ffb7fab4bef7b2b887674c78f"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R25.jpg",
+      "bytes": 598368,
+      "sha256": "f7aec88731441e2502eb56adb2d88d4dbbdc0174d4abf72abd723b6b3fb6e351"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R26.jpg",
+      "bytes": 465167,
+      "sha256": "1d3cc0577b2380f41e2aec12025c5b34df34ad46d79f2e2746ba5aa9f271c36b"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R27.jpg",
+      "bytes": 353980,
+      "sha256": "163c927b75863f69c98a5af4e207a4fc42da4976b26d3d557be477477fee2772"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R28.jpg",
+      "bytes": 247313,
+      "sha256": "d363b85347a1581cd8ccb9943db065f85bbee96e7d1b0d0a308a0a4158939704"
+    },
+    {
+      "path": "references/databases/style/images/raw/S01-R29.jpg",
+      "bytes": 309184,
+      "sha256": "3b6bee79466b4071973d65774c7b24bb7e64a26ffc98db3e686e8042674436af"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R01.jpg",
+      "bytes": 546337,
+      "sha256": "33f352c5fa375ae7b09d7c1d9460b51452243181ecaa21a6d9c6b9fbf1602dc0"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R02.jpg",
+      "bytes": 598765,
+      "sha256": "7cce3f214b05f36364e287f710b396bd515a7f372b89cdfc92db58974eadfe45"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R03.jpg",
+      "bytes": 610146,
+      "sha256": "b8bb6c90eb0e9316c3187f94fef56bb39e562f0c8c70efcfd68a5ccdab1c5032"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R04.jpg",
+      "bytes": 318211,
+      "sha256": "6e36f8caa51cfacfa8ec68e6deb83900805b756a97146c4f547e9a663a425513"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R05.jpg",
+      "bytes": 447296,
+      "sha256": "036208dde34efd094b4d7b3efc1780340567462b305bf0c0598430bd7d9e5ac1"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R06.jpg",
+      "bytes": 600207,
+      "sha256": "17ec1b5db98a607efb3c66ff5bc962160e06561da2a5b8c16af6d6b132dd4364"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R07.jpg",
+      "bytes": 168339,
+      "sha256": "da79d42920fb804000404d9507f3329eea9587f390a1c3f1ba1efa5ca3b6b9d6"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R08.jpg",
+      "bytes": 180229,
+      "sha256": "bcaace4b5124ee0394ea119ef5b2794c09d90d6b71cafaa6b74f353b53a6e291"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R09.jpg",
+      "bytes": 219674,
+      "sha256": "ae99910bc7f843b09c18ad0af7f5eedcebb72cd0b48aa40ef95742721270e878"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R10.jpg",
+      "bytes": 389115,
+      "sha256": "05a86ee96015c23edefa9dc3e9c2ec00b3a64560fa0856864f88ed31145e1723"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R11.jpg",
+      "bytes": 157142,
+      "sha256": "dc86af4134d563092671f234c1d5d989e1906672d34125bac35eac2f3b564a2d"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R12.jpg",
+      "bytes": 168297,
+      "sha256": "8e1b8453a29682ccf99f0d6ef5b11d0826980d77dfea07dc12564feae2057901"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R13.jpg",
+      "bytes": 99638,
+      "sha256": "564b16a0f9bfe6b401452fa25ecd9425248ea1fd44c1dfef0edefe18734fbcd3"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R14.jpg",
+      "bytes": 267180,
+      "sha256": "73534a63a291b935c88fd6c361386c739ec5892385d8804ca7785a3fa80a4b88"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R15.jpg",
+      "bytes": 539693,
+      "sha256": "0e0621ae95d30edbfa3fc5fa5c6a20d4279d4beae67c2529da1c7728a9476338"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R16.jpg",
+      "bytes": 530655,
+      "sha256": "ea2521ab9444e04fb6bd3b59adfcefc277594d3f248bd5db424c812f3f25f43d"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R17.jpg",
+      "bytes": 512407,
+      "sha256": "f5d48d425f24212afcac2729db63a78bc06767669906cb4e11fa38e6ceeb6d77"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R18.jpg",
+      "bytes": 466700,
+      "sha256": "5bda6cbdddfa96686b256c55b9d06340bae1d648d9363a93a2eb39b507dbb5a5"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R19.jpg",
+      "bytes": 598368,
+      "sha256": "f7aec88731441e2502eb56adb2d88d4dbbdc0174d4abf72abd723b6b3fb6e351"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R20.jpg",
+      "bytes": 549378,
+      "sha256": "d6b772ca9649e052ba06479b215d5997d84342891bef59c50b2192ebe44d9a01"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R21.jpg",
+      "bytes": 414696,
+      "sha256": "e34f1341837f71b172b949010b33a421246ba87d59592ebf1826cc33b7355642"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R22.jpg",
+      "bytes": 465684,
+      "sha256": "02774d504ef4f1b637fae6bf50077f53bf2a3e5c758065f37c1cfd532a38baa0"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R23.jpg",
+      "bytes": 422291,
+      "sha256": "bbddd09eed97592703a77fef96628a11ecbed2fdf4e3ec19a59e9ec6c06b7dac"
+    },
+    {
+      "path": "references/databases/style/images/raw/S02-R24.jpg",
+      "bytes": 945472,
+      "sha256": "93e05b7f9dd98ec50504ff83c2a0f7eeac97c623c1b70bd3d5fc63aa73b05d6a"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R01.jpg",
+      "bytes": 267740,
+      "sha256": "14676910ad0fdf4e3596e3d9156569b52c557d17ad1928f8e6fb7d598278be21"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R02.jpg",
+      "bytes": 309246,
+      "sha256": "15c8975d98ec750a115a8876cfb85bec029fd30d27a83fdf2290e711c8a7d587"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R03.jpg",
+      "bytes": 315208,
+      "sha256": "acc391e6255ef7a8742b539e21e030b0d7f05b7125460e3d54eed82dfda1b556"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R04.jpg",
+      "bytes": 257009,
+      "sha256": "c664bfc9a54f1ffc074db65b25bc5700c33ec30bb56c25a70b92a33d6d64c076"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R05.jpg",
+      "bytes": 254769,
+      "sha256": "03ba063300b99dd655a388cc25bebbb2274c6081b5ffaf6bb7972a062db28648"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R06.jpg",
+      "bytes": 185047,
+      "sha256": "a4380ec3ffe65f28381df684fa6b14686e0962afa24cabbe25c5064a9fc62793"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R07.jpg",
+      "bytes": 500129,
+      "sha256": "2e8d38c924f3806ff25fd190b624db2d35db1d346c5ec1c6e3ea3358094ae37f"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R08.jpg",
+      "bytes": 177311,
+      "sha256": "b09980c9d17b7688f7c22c96623104212fd12cc49da3faf430214d6b8c19bcf0"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R09.jpg",
+      "bytes": 306778,
+      "sha256": "6e4dd956d0a139901dd8a6ecec3b0efb70e8cb20796b284980746e0b3b209a12"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R10.jpg",
+      "bytes": 331861,
+      "sha256": "58e84a1437b8ba8353f610fa9add18d9ea1a8ab584f6753a6e00ccb2c74371f9"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R11.jpg",
+      "bytes": 183110,
+      "sha256": "d8e679e5631b6d30f6a98c8fafe137932d757c3d4ffc6172f39c8c1f900570d9"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R12.jpg",
+      "bytes": 163829,
+      "sha256": "85651104ea2b7afbb23d4dd58f774de80aaf2527357f06e311984cf4b1d77a8a"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R13.jpg",
+      "bytes": 268959,
+      "sha256": "38d01013d332e987d804fd501f879b3554c042f478b90f7c334d3efd53ea92a5"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R14.jpg",
+      "bytes": 325838,
+      "sha256": "7897e5f98606b2e86786a58f2d6e81971907dc1204338a624919a96ad5ccf194"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R15.jpg",
+      "bytes": 286059,
+      "sha256": "8586fda99858f019b1e25c3864498c3987a00e8f278c2a8402fa31fd8a87e553"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R16.jpg",
+      "bytes": 303630,
+      "sha256": "6bd41d8dec70e7aebb6e39719d62ccbb64b33434fa853a52782c8c443532b525"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R17.jpg",
+      "bytes": 287494,
+      "sha256": "8a30bf750db7b06ed386883d5328d4960d3fe5bbf472b5c8a0c3cd27fd0e7df4"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R18.jpg",
+      "bytes": 216662,
+      "sha256": "9409e80e735d12ff14fb764ac64cbc7e81e685db4fd25328db8aa363dcba7e2e"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R19.jpg",
+      "bytes": 338744,
+      "sha256": "a5c5ead961be078d15304abcedcd114512ecdbdc77322c233d7bd5df8922e36e"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R20.jpg",
+      "bytes": 229904,
+      "sha256": "90616be47103945015d6c760acc10693b4e23b7513e460616d83f1ff79e6665c"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R21.jpg",
+      "bytes": 569961,
+      "sha256": "4fa0ff3462c3e05a98a1feb050455e6ca76ebfc6625c92344d3b0825e7735189"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R22.jpg",
+      "bytes": 360342,
+      "sha256": "89335cdb07b51695d6e8f671d69591cbebd9b9bffe87ba2a27b40406197b333a"
+    },
+    {
+      "path": "references/databases/style/images/raw/S03-R23.jpg",
+      "bytes": 353550,
+      "sha256": "554bc431e8ac082e44bac464938c53a14f01bd5b05125d28ac10d0d972480dce"
+    },
+    {
+      "path": "references/databases/style/images/raw/S04-R01.jpg",
+      "bytes": 424004,
+      "sha256": "58b77b6ac84897a66cc9650fe54fb6ecd3069d7640b0cbc2d5ba0763da9a3775"
+    },
+    {
+      "path": "references/databases/style/images/raw/S04-R02.jpg",
+      "bytes": 412966,
+      "sha256": "9a8f8b24b63da56d005bd18e9f1fa92abc6c16be05ad95841bcfac749b0d0ede"
+    },
+    {
+      "path": "references/databases/style/images/raw/S04-R03.jpg",
+      "bytes": 329595,
+      "sha256": "2a15367f748f43a435caa9d3f6d30e37ad6525bd14e215ac25ddcd26a73ad92b"
+    },
+    {
+      "path": "references/databases/style/images/raw/S04-R04.jpg",
+      "bytes": 340975,
+      "sha256": "c7d4b6bc7cbd32d8abc9cbafc980e7ea12cfc2e836b636cfd0d70cf88c9e44dd"
+    },
+    {
+      "path": "references/databases/style/images/raw/S04-R05.jpg",
+      "bytes": 297850,
+      "sha256": "4f6365c00965475aa8bc0e34862589ce1eaf380b0a91c0fc0fc30cf82cc52c97"
+    },
+    {
+      "path": "references/databases/style/images/raw/S04-R06.jpg",
+      "bytes": 257877,
+      "sha256": "4e77aa8c1eb5f774a55745cd404cea73ed091d2153740f55cb8b8c9b2e8c69c5"
+    },
+    {
+      "path": "references/databases/style/images/raw/S04-R07.jpg",
+      "bytes": 273237,
+      "sha256": "4ac29110bf63d9f177c4c888d57237512f7e949988ef68043419f493cf5eca4b"
+    },
+    {
+      "path": "references/databases/style/images/raw/S04-R08.jpg",
+      "bytes": 197987,
+      "sha256": "56aded47d7207e31297789279699c15102d3eb5d613889d9745107996cffafc4"
+    },
+    {
+      "path": "references/databases/style/images/raw/S04-R09.jpg",
+      "bytes": 337029,
+      "sha256": "a52c08998ed6d2f1928273ff4b767a2928a9fcb8f65945dd5744e34cffb51192"
+    },
+    {
+      "path": "references/databases/style/images/raw/S05-R01.jpg",
+      "bytes": 391455,
+      "sha256": "563a2391402c3d0bf0e321617880573aec5f53a0d4aef1172af1471d0f0ff939"
+    },
+    {
+      "path": "references/databases/style/images/raw/S05-R02.jpg",
+      "bytes": 506101,
+      "sha256": "849ee3e1a3cebbf6864e33aee1be5bd5d1edc7ffe1a67b01f1e9c02262d9bc50"
+    },
+    {
+      "path": "references/databases/style/images/raw/S05-R03.jpg",
+      "bytes": 279448,
+      "sha256": "60ff0e7366aba60a8b60bdadda03490f9cae84783fda7761481d972adf59c77f"
+    },
+    {
+      "path": "references/databases/style/images/raw/S05-R04.jpg",
+      "bytes": 301543,
+      "sha256": "318165e48d4048cd172368230dfa807633ed1ed7caab45b4cd7e3f719a6aca0a"
+    },
+    {
+      "path": "references/databases/style/images/raw/S05-R05.jpg",
+      "bytes": 636970,
+      "sha256": "2c83eeaf5583448179ba4fb4f3d41bf03a22a499b4d7438652ec18ec4d8fb764"
+    },
+    {
+      "path": "references/databases/style/images/raw/S06-R01.jpg",
+      "bytes": 730661,
+      "sha256": "a56c05a7b9d91d3a540b7c47f443d3f4475f9f5b3ba96b5c4d7fc56ed0c4784d"
+    },
+    {
+      "path": "references/databases/style/images/raw/S06-R02.jpg",
+      "bytes": 228891,
+      "sha256": "65d9270577794e5b28e8fb1c867c1e238965d3611b15afe2a39e0fe1bd31a29d"
+    },
+    {
+      "path": "references/databases/style/images/raw/S06-R03.jpg",
+      "bytes": 555742,
+      "sha256": "8ea12dc8a6c9fb104971a8a5e8156aef53bc949f37b0855be0a91e2e5e26cfe0"
+    },
+    {
+      "path": "references/databases/style/images/raw/S06-R04.jpg",
+      "bytes": 355900,
+      "sha256": "94599cffa1afd7777883ecaf0aa11d7446bcafa04029486c3929ba71dbd6836c"
+    },
+    {
+      "path": "references/databases/style/images/raw/S06-R05.jpg",
+      "bytes": 383571,
+      "sha256": "29b7425fd0ef415916ac3566a65215eb9b3aa5e02a10433cbae9724dcd8aff47"
+    },
+    {
+      "path": "references/databases/style/images/raw/S06-R06.jpg",
+      "bytes": 481592,
+      "sha256": "cd115bc00c9c2357c4b4e4bf9b147ef5ffc8add0493960577b4b3f401128c007"
+    },
+    {
+      "path": "references/databases/style/images/raw/S06-R07.jpg",
+      "bytes": 306252,
+      "sha256": "7d01a82c05aa2a5e597acb90e0271fd467580cc240b7dee0672b2c34af7318e4"
+    },
+    {
+      "path": "references/databases/style/使用说明.md",
+      "bytes": 33182,
+      "sha256": "a778e3b0bacfc97c869e3ff81d28135abc4975a27c85146a8ce5b7c215c7c5aa"
+    },
+    {
+      "path": "references/databases/style/开始阅读.md",
+      "bytes": 1028,
+      "sha256": "ea89e63fe986aaeb62b7d70614b8c2cbd98c09640364a55c3a28f3ef5c94ce74"
+    },
+    {
+      "path": "references/databases/style/本批素材评审.md",
+      "bytes": 5554,
+      "sha256": "99d80de759ea28887b224ff4675fb71c0c6018a17dcba3e8bd7f091391fb6f8f"
+    },
+    {
+      "path": "references/databases/style/案例填写模板.md",
+      "bytes": 4554,
+      "sha256": "7fc398b111e57ff0e19d9c00f2cb8133f083e97f1ffe8ed961130a2591d97d94"
+    },
+    {
+      "path": "references/databases/style/案例索引.md",
+      "bytes": 22225,
+      "sha256": "488f72146c43da0d7a77c85731050f833e54c5c27faa2b4668af2bb6e8be3c2d"
+    },
+    {
+      "path": "references/databases/style/素材全量清单.md",
+      "bytes": 29453,
+      "sha256": "71eb1f9e8c1287eee060628b915c27152139fc08cf3d2f2a90fb5eb8e6e7c086"
+    },
+    {
+      "path": "references/databases/style/视觉速记.json",
+      "bytes": 9200,
+      "sha256": "e4ed4242a3a1e941e8cbfdcb63342a3bfe8f1f94853895ef80b3c9df2bb1dd4a"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image1.jpeg",
+      "bytes": 224985,
+      "sha256": "b2565215aafa59303f8b52fb71ff6d3413ade056871c40720b07e59c3c09e910"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image10.png",
+      "bytes": 2327115,
+      "sha256": "20f8d9745586d81026f84e4151e66ff75c670e3cd081aa853c82168fefdedb98"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image11.png",
+      "bytes": 1983866,
+      "sha256": "bfbef47fb3b7c79fcff7e715802d24fe444dd6b89079a6e343bd35923f723734"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image12.png",
+      "bytes": 2016171,
+      "sha256": "0300e4e0293b1dbd20e8f3fd9f771797170c9a78d3bda218a138c9b4e6b56840"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image13.png",
+      "bytes": 283176,
+      "sha256": "eb0cc84e3719676fc6ef009f20a6308b8ff57057f8513822a7155fe6a4b3532f"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image2.png",
+      "bytes": 1528360,
+      "sha256": "1ade534c266034405e087beb14d8110b964b12a15b23f13e7e43365f1b4eec19"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image3.png",
+      "bytes": 3925133,
+      "sha256": "e86954eef2d62be086b83bccc1af0ab90752d20a1481f9eac5118ee454619b0c"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image4.png",
+      "bytes": 3421113,
+      "sha256": "c80ce596a996d0c25397658122049f1eb37f275d6e0ddd18742ab9c3bc27da13"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image5.png",
+      "bytes": 2345955,
+      "sha256": "36e0b78bfed0788d124a8f3e2457575f51b86ce8b591dfcebb04aee5f34f42c7"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image6.png",
+      "bytes": 2581701,
+      "sha256": "789c85009769b8b81af51b0c2db19fa7c49aab0fb2fe7e965cd2a25b1b036610"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image7.png",
+      "bytes": 2453145,
+      "sha256": "0b6594399db24c46a6a84fd4845d39b6e00a31ef4e5d910d8e8c7218663db9de"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image8.png",
+      "bytes": 2048392,
+      "sha256": "45b74130b688c6be23e114142552ecb936cb492beb45dea7febccb2a75af3675"
+    },
+    {
+      "path": "references/databases/theme/embedded-images/image9.png",
+      "bytes": 1059146,
+      "sha256": "e2e58d80b893347ffca76271249f214c2210ca456b24b494c94281d1de38f77f"
+    },
+    {
+      "path": "references/databases/theme/主题文件夹使用说明.md",
+      "bytes": 16298,
+      "sha256": "0473e2aa235a0d93ff637ca2cf3dd0bd32291d1b83ab72efe3690aceb23dfa26"
+    },
+    {
+      "path": "references/databases/theme/主题方向案例集.xlsx",
+      "bytes": 26229807,
+      "sha256": "72563946f27ba3a8cacf053cbdad5fa947bf0009859ca1da0f9f2e2c6b52d5aa"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/032ba42f9c35910e1052cd87f892957d.png",
+      "bytes": 1974367,
+      "sha256": "790eff8d61d4e43facce8eb07b9fabf24047ab216b4ff4b0b5eb67810b29e789"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/249a5eb5ede5f0d0af9d56487df33b99.png",
+      "bytes": 1617281,
+      "sha256": "5bc4c309f6247a52f38bd31a7e008724a253b8e249e570429317c2108233563a"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/494d81f261b94b67cd4a8c2d0da301eb.png",
+      "bytes": 393611,
+      "sha256": "73b511c1c9123fe3071114f4a2b638ec4e4af1f0dd3748a3e705107cb5ade5e5"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/5a08fc687fca8ddd091fc1f5f79b77eb.png",
+      "bytes": 297080,
+      "sha256": "db701f02885d869dca7ef8dc654a963314097942fa0f1a450dc7e9b88240d019"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/7d5aad43c14b86de181d5a79e3ee4552.png",
+      "bytes": 1303957,
+      "sha256": "d69cba34db91dea0e9e1a3e60a7b5f31aa91a2d89727ed5076d916da50a0c033"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/7f92b27828f9d6c993f737541183de67.png",
+      "bytes": 1413836,
+      "sha256": "dc18f03a9d9de9aea2fabd610754a7bd828466de9bde396e8392fecfabb50dfd"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/9c8a3f8dcf3e8658504db760da9489b3.png",
+      "bytes": 1030809,
+      "sha256": "5d3e117bc20980dcdd00fed93ff4e4ed97e6d3370a82bb70a9c7e7ba4adb158b"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/9f11b263a76ec989b80788ea27223688.png",
+      "bytes": 1887084,
+      "sha256": "e2351414dd4e65728ab7f30ba28f4cb7a4090fd7820a14ca776134e1867db02f"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/a2ef03e596b21339e1ee0315e0594666.png",
+      "bytes": 2564867,
+      "sha256": "2ff30c6470ee4c8ff8fcada19564ec87b7968d555fd8890c9ea62fb4d0251be5"
+    },
+    {
+      "path": "references/databases/theme/便民政务服务/b3520421328e21c9921e53cf96e0ed42.png",
+      "bytes": 440851,
+      "sha256": "b06e3ef547a2984685672b555365136adb4c7c166a04765ef78b9292db6c35f8"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/19e668bd1a7b2bd2f96f142b440a95c8.png",
+      "bytes": 1167979,
+      "sha256": "2eb8dcd9b733fd1aa384053585001baf63de179618f8b71cacf09fe6874009b1"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/1de5eeb4be88115fe7c93b53cef29b2f.png",
+      "bytes": 598216,
+      "sha256": "0d429f0d2f98aaeb443f6e7a292f9559942996900aafd1a5e5f6a95c2f4dff7a"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/3b18593d6fd681b4d3248fc5f6139ef0.png",
+      "bytes": 385817,
+      "sha256": "932cc10cf5e732b95b86a3a7d81f3a5d1a3472efbf160ca50350f9c1f035c439"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/42951adbb104636f50b51f98f89c7ade.png",
+      "bytes": 599778,
+      "sha256": "aab676559d07d4513f1c110d039a7dccd8653fac3b2c7d8731bc42dff62a7517"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/58d83d2d568cfe3b8b5deb51afc149da.png",
+      "bytes": 4066691,
+      "sha256": "bcd05829ee539d5451f444faed3bd88000fcf9761252a9cc69bc473614966bf3"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/6cc763ce7bdc5ca792b805708605267d.png",
+      "bytes": 1357661,
+      "sha256": "2ae89d3bc0f040dc906f65d3adccaf990e3285e6325bc1c2585da122d846e232"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/7f43ebbe33438e03dea1caa9c80cf0f1.png",
+      "bytes": 334567,
+      "sha256": "343dbf121f4e1d7a84a8cfe0011826f2bbd40327feab081bcd8ed49fcd7f3161"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/7fa3d22761957c2c1148f70aebdcbee9.png",
+      "bytes": 396471,
+      "sha256": "9ad0d22a63d353099794c9a9900a5fc61c9aa95200f7ba84b00f545a9d3a2e1f"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/81c7dec941da11bd1d83aae778424eec.png",
+      "bytes": 222931,
+      "sha256": "7ef89b3000eec50c7dfceb4e261fcabb55e15a628839250d4301d8310c1eb65b"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/84af96f84b7a2a002e4cfb17abe73166.png",
+      "bytes": 1452708,
+      "sha256": "be05422c7afc192e49bb41e56160e938bdc33f9767935344f4ccf213bcd1c0e5"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/8535d463baa19d215f383fefc8fb9902.png",
+      "bytes": 1151366,
+      "sha256": "77dd0afc7e9697e805d5730005901538550c677926f71a5074ec7557fbe72e8e"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/b037fffd8c428ff75adad598500bcdd7.png",
+      "bytes": 1033619,
+      "sha256": "d5e0311e7b767d0d20e52a23ee02fecfe9a23f5e569df936acb5d674b80930af"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/b2838730dcc6ee3cd6e1f197de70562b.png",
+      "bytes": 251336,
+      "sha256": "2b6fea48f6316f80419c221650ceb2bd3972c475ae9f283ae3633babbda9d05c"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/e188647d534686c64bd1bf640afb395a.png",
+      "bytes": 338432,
+      "sha256": "2552528e21dfbab7af0ef1238ea2fb9f9ebdf5f9959876bc9bf98210a7eb6352"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/e8a2446b6bf7abbe72d7658c06d30026.png",
+      "bytes": 344267,
+      "sha256": "896f034ada1c2ca8bc6d55c2c4834a18c3e576860c31f0506d6fa48dd52bd989"
+    },
+    {
+      "path": "references/databases/theme/健康与防护/ec0523b791e80cf935887d45f68a7f98.png",
+      "bytes": 484070,
+      "sha256": "3c50cbd14745b5d615f1a3efcce5b894875cbb538f6e91887ea22e7bf7c36e78"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/03f86ee38a0c3d8b0f6e2eb553ac2ac0.png",
+      "bytes": 512337,
+      "sha256": "f43d5d18b3ee6a5b52a03fb0d72bc345d238b9fadb2e65904ad9ecd1de0a42e0"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/2ab7e46c392d0bb43841819e7666d35f.png",
+      "bytes": 1466401,
+      "sha256": "70c340eebb2aebabf47302f32807ebc9832bb9ab52c577d29b8aff40da04b35c"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/3223dd4026ed7651b3c9c6dd993b5c13.png",
+      "bytes": 1120235,
+      "sha256": "7449d11a0b0162bd6637ece2c30ffcbe2bc750d4f63611d3ba3baa2bf741eb82"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/5447f5fe965ba8ac5269f2946c798bfd.png",
+      "bytes": 245332,
+      "sha256": "a7fb838393340dab824142833a61552c6e6d7c489a6e481e162a09aeeb101e9f"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/60673745a333a0b4d70f62759b6d4a06.png",
+      "bytes": 1078817,
+      "sha256": "cc03133cb0454b111947305e2ac5f277f4dcc2c21f1784973b43048e7f0835bf"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/66db5b51cf559ea01b6bc966bbb920ae.png",
+      "bytes": 844471,
+      "sha256": "61585a34c5c72b13dd85f8aef257ae1de4b195adf37aa309967b0440a8c45015"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/6e35adfd6ca9cf78b9ec554f9222b473.png",
+      "bytes": 628676,
+      "sha256": "038324523b8764ba2b5a46c204010fdbdcfe2bcc85f88fb60213776e07772f56"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/7e352553b9b3bc4c2d7b7b047d2fde8c.png",
+      "bytes": 1123407,
+      "sha256": "4a6088cc6efc29278219fc687fcc0e00bcf6748219341761d524f9cdb7d80ab1"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/802bf3cd89a368ef93f6e831bb30baa0.png",
+      "bytes": 688350,
+      "sha256": "7284b8aeaf754a73b8ac881d116e0f57d68d80b097024281b9738c16a36dac93"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/84ff9d1d71c79cab037c88f9c0f401e8.png",
+      "bytes": 571571,
+      "sha256": "2ff36e74201fd8d137e6d80a749fea2d37330bdf91cf568dc70654302058688c"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/9d8cdda874a5153f17cac3bb73683dd0.png",
+      "bytes": 896961,
+      "sha256": "183ba91ffb6d2468a97b812acb7d4de37492a4029caa79b5d7ca8c00c43ed74e"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/a7d1021c61776654df06018dc138254e.png",
+      "bytes": 1240369,
+      "sha256": "ce3982431adaa645088ad9902fe22b45ce01e4f62982eafc1470687798d40464"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/b1ef28fdebb84987f8b95fbdb2157e84.png",
+      "bytes": 608710,
+      "sha256": "016f0c04acab91fe8075d4d26775647f228578425724abe3732e4b373601a0a6"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/b2ff7f6a874917c5c6ad610e50645fe4.png",
+      "bytes": 749907,
+      "sha256": "10c9eec449b813660f82fd627f3b601be4a3caf6f3e99d8b4c18a57535773451"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/e5fc44a84fb3cf7c98b453eb6b464181.png",
+      "bytes": 843567,
+      "sha256": "ecb7c3bec3d03a538d852070ecaa83e445ac903fff570c4c8b14eaa10ff9f578"
+    },
+    {
+      "path": "references/databases/theme/关怀与志愿/ffdd4e63f33ad70c5f92f5f1cdf16d1b.png",
+      "bytes": 886307,
+      "sha256": "7329f6e81866b3b96336b43dc3d5d2447438ce6f1627dc84bdb103eeee6a886a"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/09e08c91f90b3db0c20106a6a49016d9.png",
+      "bytes": 283174,
+      "sha256": "ceb04d14887f58e7d2d968a01a1e223c571f82530acafdf1f49d352fb879c835"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/11a4b54bc657485e52d7d106a5d7d735.png",
+      "bytes": 637992,
+      "sha256": "691791156ce43dc93ee0c4f7dc8f08a3a3cadee9f2b9784d38b9552d443d59bd"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/1d7832eacce5609e6642d81c1abc83e4.png",
+      "bytes": 899926,
+      "sha256": "993658aafad7ceb6777dde686075e084a54ba8be1765e1de3d7a9ab8bba569d8"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/31a5dae3d97249611f404e43dfbf9096.png",
+      "bytes": 432614,
+      "sha256": "d3a9810ace68239cbb3f495bf64c11d7b7bdac6c3ace9a74375070298c04d786"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/328d8f628933df507ee0031b0e4c39b0.png",
+      "bytes": 1985247,
+      "sha256": "6518153514f975f0a58e9664290c2ae9fbc6059acff1cf261cf70ad6cf59cd79"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/3e47ac2a4056b1a7c4c6a6b54b1595e0.png",
+      "bytes": 522997,
+      "sha256": "bb5989147e67039ce416b12751add33c64597ab89d8b786b35324712f2821b9a"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/571fc1cdb916ded6257c9e36b36030b1.png",
+      "bytes": 1581361,
+      "sha256": "15c1bb184e63dbcece8cd02a1a8e241363da6e5cf7d9e7c94cf7063688126ea7"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/66f823650f567220e01d0e220f236d0d.png",
+      "bytes": 399404,
+      "sha256": "418e0da09ad38ec16e2a53e9009e65d7f54131118da8b4c74e7f186dcddd500a"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/7113de215f2bfea11eda05d3bfd436f1.png",
+      "bytes": 322334,
+      "sha256": "94a7083955b4f80c3d3e2441167b3c78f257b0f485f40df7f21e855219a8defa"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/7222232982491bff7326fd9e32eb39a5.png",
+      "bytes": 591707,
+      "sha256": "81db4f5538f12711884f14c3f7de2166e09ccdf53f9dbf99625333eaa186c1a2"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/797b0a9d7c739811d050acc3f89c574e.png",
+      "bytes": 2919359,
+      "sha256": "04e4a9a335103e71fb849228cdde5bb8fce0da12490202d2877717d947806998"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/87ed18c055a48fbb8743cf3894a0c29e.png",
+      "bytes": 504085,
+      "sha256": "c84221645063957b58612fcfd520659ec7db5e3f54917f1c9aa2dfc5d231ac4f"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/90d00595eeef9308ba3640359b0f7358.png",
+      "bytes": 1586473,
+      "sha256": "a830d83a67ad0050f7b0eb325d9431aec886be75a0a143f7f689adbac3eeb856"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/92a28d6c9964e316e1b4dc1140795138.png",
+      "bytes": 931998,
+      "sha256": "4f1d6a1299f8d429aba44cf7666a8779fcaed28b9a0477ad290649ccb8160ca2"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/a6379390ebb4f9bc5a4750869f028dfa.png",
+      "bytes": 882922,
+      "sha256": "af2ccf42171225f4a5f42258b18aa825ccee1d13dc2e996e566497102d337669"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/afcd9cc7ade5f795049ad813ac9effa5.png",
+      "bytes": 1582612,
+      "sha256": "aa5bf24c055ec8790af3058ec647b34308eef31cb9577c4c2d1c17f50116b835"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/b70dd136343ebf23814424da4aea65cd.png",
+      "bytes": 938979,
+      "sha256": "afaf512bbb890cd6c52c6947e31ece884a1045df248b5a5c56f2e5f77d45e31e"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/b8364a21c29409a87b18897917db7308.png",
+      "bytes": 988587,
+      "sha256": "05e5786abb373bfc20c8432d9bf8d2a04b27d53ec9604f9a88b2346035bf7a54"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/b8a7b7abf42f17709723b602a5bd9e71.png",
+      "bytes": 1194471,
+      "sha256": "d2cd687b427250f7e976ac97a4bcdc6f6314ae0148d687884be5f103b00f0ead"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/cac82c3aef81da809d210daaf9ebf4a8.png",
+      "bytes": 1052877,
+      "sha256": "49eda0224d406f65f29b9599ecaee8f03e1d55e400cb082104e725b34c9ea3c5"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/d0aaef30b6a5d7a4b8e59d5b6cbaa27a.png",
+      "bytes": 1676602,
+      "sha256": "10587b9c056001079e5bdfa67bafd8ae19b83a12df34439d0e6cacd9d092d6e3"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/d6b60cc3cc348c995c09bed88d947895.png",
+      "bytes": 610697,
+      "sha256": "bb27a1cabc279a5829e5a0772712ae452f143401fcc7086dea1e8bb82eae9355"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/d84f8cfdf29957d0a7e19a45aecb1138.png",
+      "bytes": 799547,
+      "sha256": "efededbbb0836e3423831e8661db1e460fa15bb04ec96f068b7f4589c1c60ae8"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/ddb3c279d5482bc9bd442a0f27f3f119.png",
+      "bytes": 437155,
+      "sha256": "053a613ce0371bbf8c6832ec29dc8374b349e84aa6f345955de85b765b90a6fd"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/e25f797278a91f228128c532ed6f6603.png",
+      "bytes": 1456789,
+      "sha256": "e1d7cd7fa4d8da9dcc8b15c8b23022d05bac78c5b8f2f7e16120f85988a97280"
+    },
+    {
+      "path": "references/databases/theme/出行与活动宣发/e88048531d049eda2793cec8ce841592.png",
+      "bytes": 303740,
+      "sha256": "f88b55ddf2c0bba8add0a42a52a6f8d09ce338fe9b20b64995bfef3c1a090acc"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/00d0df9111f1b52a47a08bc7349b984a.png",
+      "bytes": 997938,
+      "sha256": "5ebb001742f2282b5783fdb0a2301631c58d766ea8a162cd58ccd5c2d12175a4"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/1cffa510f61f21d492a01dc0ee96b495.png",
+      "bytes": 1004231,
+      "sha256": "a30b12952fd45927c770cc41616156f77e93cc7780f543698f054f514050ac00"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/2006a523155b94271436131808ec30d6.png",
+      "bytes": 195372,
+      "sha256": "5deafda27b8a5a7cb1b7bb3de03bd302a7bf79a47099b6a2e12f301566a634c0"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/3cb486cc8830cfeee1bafc5f7e25ecdb.png",
+      "bytes": 1179644,
+      "sha256": "59d173f7266e651aa95523cecf2a25307037b60b25668c046bfdc92d664489e1"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/5de463b0ff84c41471f02b3bc9308c1f.png",
+      "bytes": 1068648,
+      "sha256": "c84cbea57f5c267cff19a47d62c4c6f11e07fcd96b5bc12b1a674fe59f4ae12c"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/7c044d9cea4e3632e0440a433d934bfd.png",
+      "bytes": 1260156,
+      "sha256": "bdec59a6f2533b3957934e383996e8245307ab1b1a62557c093d45d39aed6944"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/8dcce68624883295f7ae5fc2e989a04e.png",
+      "bytes": 1093400,
+      "sha256": "c4fdeb51af456d44b6c0baf3190a8485d7d673bdb0c5932c1c772ea246df6b2e"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/9451d9037bad4c98173a82cd01f2c0d9.png",
+      "bytes": 1244513,
+      "sha256": "5cc6cab0b357b01982c30517af9d8f99ebd4b357b41b7fbfada6a01f6faeb844"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/952eb81e52a6dd5a4db0935cf13ad66e.png",
+      "bytes": 1056980,
+      "sha256": "44ebd244675fb5a7d806b6609f80399b4b63661f9c233a8eea6d40aa3d9872f2"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/b0bf41f5c7a6d65cbd065f86e8d52d64.png",
+      "bytes": 1014146,
+      "sha256": "30a7ba329ffe9874992d1ab027ca6071821d01048a6dab079c6c1968d805010b"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/bf6903751609dd5385e7df792721a7a0.png",
+      "bytes": 1372511,
+      "sha256": "1efe3b11658ebaaf8b7f73643985f4103da9305330b1994669542f5d017ea001"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/d129fe229d7b69f99549ac7743a24621.png",
+      "bytes": 1059146,
+      "sha256": "e2e58d80b893347ffca76271249f214c2210ca456b24b494c94281d1de38f77f"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/d5797ae84fb4ffde5f619b9de76d7e3a.png",
+      "bytes": 1473263,
+      "sha256": "a7174a0a9bdda867a72c78d5373fa9a8e7589d38751cf6ae1c1bd945e01907b4"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/df233d66acee99389bdfe5df9bd5ab87.png",
+      "bytes": 723753,
+      "sha256": "92e9d9c553a3042bb50c202a4cf499595f1a3b3dcb64dff700889402fcee7c06"
+    },
+    {
+      "path": "references/databases/theme/安全与风险防范/ecfb923473f04cf99705c97579feb240.png",
+      "bytes": 367649,
+      "sha256": "63e8c113dcfcd914849e5a42df46f810e65b74a741f04275f56582f06d294e75"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/0b9fa85088c240cdaf7184d3c6176615.png",
+      "bytes": 887116,
+      "sha256": "aa10a2ecf06deb5e8b5ca2b3e48438e1b0f62e95181ae1f2e40b5e1bea9fbfc0"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/1ab2dceb3a4cc66870e3e96db7a47be2.png",
+      "bytes": 932407,
+      "sha256": "1d6b2e5ccd6b6c94cb2dff80861b608d6ad1c63a023985df14c472537720f139"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/31dd2495ff74db422bf883868097a765.png",
+      "bytes": 784124,
+      "sha256": "ad2d38638275dee0e08df818647fcf0c8e937374a9fd80111c8eed8945768a27"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/4b90bfaf0313d734d9014e24baaf8823.png",
+      "bytes": 364374,
+      "sha256": "1cbe275be2ae2001a03cff587045645cbd4632017b5f4339c395c8eaab81b6e3"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/4d0e1dc7e7f9e3262a882989c05c45c3.png",
+      "bytes": 939756,
+      "sha256": "7c16e99afb678c903622cc360b72e6402cc00b7e2e880cbb3006adb591a846f7"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/5c1617b3f7ded0dad79f62505fef2413.png",
+      "bytes": 776773,
+      "sha256": "129028a5b7db85994bb0ffbe5f25917869759545f5f908a1f1efbdf9e24bd565"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/625582ec3002496947d51f5058e47b96.png",
+      "bytes": 1712185,
+      "sha256": "a891b016cac44f58b15f48f1afcb4bbb9c34d791f7e8e6b26ae102b8807dffed"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/70ecd0a693b963de202d95c59db8b978.png",
+      "bytes": 269764,
+      "sha256": "16f7356499d46186b54a164580cb47c5587f76ed096722ed43b33c889183f5c6"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/81c1bc2a248cab7649b75b88be5d16b7.png",
+      "bytes": 1095825,
+      "sha256": "8b803b9963dc1384093912a0a4ef0c9ed81b497aa92dfd6521aec1946039ac12"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/8ce228df085f837fd0e699b792b7fd22.png",
+      "bytes": 459689,
+      "sha256": "b9b5f445b061e6774947b2b829894afa756363d45210ffaacfaaa6df5a27f38a"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/95b568c5095579aff64d29ace4541976.png",
+      "bytes": 1131355,
+      "sha256": "1eb6ae567e03eb0bdb0fd8d056a1a97fc4f294c2286da92d2e2250351a07b1dc"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/9b27d80ff6ab8f25b9ab9133fb3d4ec3.png",
+      "bytes": 787251,
+      "sha256": "5043652c80434a584f0c8589eecc9fd4d587d13e90959feec83cc8659512b852"
+    },
+    {
+      "path": "references/databases/theme/普法宣传/f708353ba0b2bfb530fdf744163c76ff.png",
+      "bytes": 1000948,
+      "sha256": "a97049e561c5e99413cbd77520f40ce17abf3a448173da8b80db737df2f59f72"
+    },
+    {
+      "path": "references/doubao.md",
+      "bytes": 3208,
+      "sha256": "e58223aa315e29bf7d46ea5a76e122cd8922b2e24a25b1f6e6a277464a5fa0e1"
+    },
+    {
+      "path": "references/examples/children-paper-plan.json",
+      "bytes": 5887,
+      "sha256": "6e65d385ce01d9d9b0a1cd9d7b6c45d53ca5ea338302df21d106d2551b053616"
+    },
+    {
+      "path": "references/nano-banana.md",
+      "bytes": 1908,
+      "sha256": "673cf5f5cfb507f79cc0d47d7b81ef0b722374eb9a5a6dd566d4f59cc3c9dcd1"
+    },
+    {
+      "path": "references/prompt-contract.md",
+      "bytes": 8132,
+      "sha256": "5e39e9ec219463f205043bdb604fd7c1f395e0d4e1713df0883f1150ebea0261"
+    },
+    {
+      "path": "references/style-rules.md",
+      "bytes": 3481,
+      "sha256": "b86263db2a925055618eb355072776dbca75f74bfca6cf8245ce0a670fd99cc1"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 2976,
+      "sha256": "754bc851cff532079cb750a7234ba8fbf94a7644de8cceba77375b425b83ae6c"
+    },
+    {
+      "path": "scripts/build_prompts.py",
+      "bytes": 6196,
+      "sha256": "47e79623260f9aa29df4678f8032e2ec2bf8938e167f3f0c4c52a6b4ea96f42d"
+    },
+    {
+      "path": "scripts/build_reference_cards.py",
+      "bytes": 7846,
+      "sha256": "8a2b8a82bf73d4da8d5d009dd38a24ee93431f84bee9093fd4e7080ed689d4cd"
+    },
+    {
+      "path": "scripts/catalog.py",
+      "bytes": 7283,
+      "sha256": "e509f388e31f5ebc11ebe52454eb76a071e17c59b44bc29e1a4641eca2735ebe"
+    },
+    {
+      "path": "scripts/doubao_generate.py",
+      "bytes": 6962,
+      "sha256": "c968aabd6f071c332ab5fa2c1ea17d8693b41e9fc7bb7ad25157f1aedd679e9d"
+    },
+    {
+      "path": "scripts/requirements-doubao.txt",
+      "bytes": 30,
+      "sha256": "4e954c52e9bc9ca46128b6e8e8fbbfbb06f0bc76df96885a9aff3c981ec3ea40"
+    },
+    {
+      "path": "scripts/set-ark-api-key.ps1",
+      "bytes": 791,
+      "sha256": "688a7bc438900d4cdd14c5405476b95088a520bf3d44fe1f824f28a4b540db97"
+    },
+    {
+      "path": "scripts/style_shortlist.py",
+      "bytes": 3969,
+      "sha256": "550691970c90e77e1f8339bfce29a9deb9ad7dc18667f3838c5fb29d2c59d1a7"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7882,
+      "sha256": "2f800b54f3e15c5f9da2113a0a95e04099b94ea3d7dd2e9503ea37a6b86b8b08"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1044,
+      "sha256": "98acfc292f79e258301ef329dc85c4f622d25d81ebb88c2ccdc4f4018c38fa3b"
+    },
+    {
+      "path": "vendor/88api-nano-banana/.codex-plugin/plugin.json",
+      "bytes": 2381,
+      "sha256": "bb1ff90a266d32340a16cbf4f65b95b3b087a6876e9608e33dd14466b2afa27a"
+    },
+    {
+      "path": "vendor/88api-nano-banana/assets/composer-icon.png",
+      "bytes": 113575,
+      "sha256": "7b161e7af2204cb9f2426ca0ffa027f092bcdf57146458e4f67a78f426945cc6"
+    },
+    {
+      "path": "vendor/88api-nano-banana/assets/plugin-logo-dark.png",
+      "bytes": 113575,
+      "sha256": "7b161e7af2204cb9f2426ca0ffa027f092bcdf57146458e4f67a78f426945cc6"
+    },
+    {
+      "path": "vendor/88api-nano-banana/assets/plugin-logo.png",
+      "bytes": 113575,
+      "sha256": "7b161e7af2204cb9f2426ca0ffa027f092bcdf57146458e4f67a78f426945cc6"
+    },
+    {
+      "path": "vendor/88api-nano-banana/scripts/generate.mjs",
+      "bytes": 34989,
+      "sha256": "b73d9da5caca1473eda4b1167de0e8ef727f2ab5df533574597080c4d3458c45"
+    },
+    {
+      "path": "vendor/88api-nano-banana/skills/88api-nano-banana/agents/openai.yaml",
+      "bytes": 326,
+      "sha256": "0d3a21f666b217a001eaef79dbcdafa6cc7e80f538d6a753263b015b9914bbff"
+    },
+    {
+      "path": "vendor/88api-nano-banana/skills/88api-nano-banana/SKILL.md",
+      "bytes": 11830,
+      "sha256": "6e20e91f86f7a2cc524f2410db622de847a15a678e17374816b339f0bf99ed02"
+    }
+  ]
+}
