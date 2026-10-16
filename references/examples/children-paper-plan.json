@@ -1,0 +1,42 @@
+{
+  "task_id": "children-paper-example",
+  "canvas": {"width": 1200, "height": 1500},
+  "languages": ["zh", "en"],
+  "style": {
+    "name": "彩纸剪贴·童趣时光",
+    "medium": "手工裁切彩纸、纸纤维、轻微叠层投影，建筑场景与剪纸人物融合",
+    "palette": "奶油白、橘红、湖蓝、草绿，少量明黄作为节奏色"
+  },
+  "visual_scene": "以本次上传社区照片实际可见的建筑或户外场景为依据，保留入口、道路或装置的可见关系；没有建筑时不凭空补造，不沿用旧测试图的凉亭。将场景转译为统一剪纸材质。",
+  "visual_elements": "儿童游戏、做创意手工和亲子互动的剪纸小场景；彩色纸片、纸花、弧线与小星星形成贯穿场景的轻快节奏。不要绘制最终文字或信息模块。",
+  "facts": [
+    {"id": "art-title", "zh": "童趣时光", "en": "Playful Moments"},
+    {"id": "notice", "zh": "社区儿童活动通知", "en": "Community Children’s Activity Notice"},
+    {"id": "date", "zh": "2026年10月15日", "en": "15 October 2026"},
+    {"id": "place", "zh": "桃子湖小区1楼", "en": "1st floor, 桃子湖小区"},
+    {"id": "audience", "zh": "儿童及家长", "en": "Children and parents"},
+    {"id": "activities", "zh": "趣味游戏、创意手工、亲子互动等", "en": "Fun games, creative crafts, parent–child activities, and more"},
+    {"id": "reminder", "zh": "请家长陪同孩子参加，按时到场，并配合现场工作人员的安排，共同维护安全、有序的活动环境。", "en": "Parents should accompany their children, arrive on time, and follow the on-site staff’s guidance to help maintain a safe and orderly activity environment."},
+    {"id": "closing", "zh": "期待与小朋友们相见！", "en": "We look forward to seeing all the children!"}
+  ],
+  "poster_sections": {
+    "zh": {
+      "reference": "图1是Nano Banana已生成的风格场景图，继承其剪纸材质、配色与场景；若附图2则是社区原照片，只约束地点形态。不要复制原图横幅旧字，不把照片中建筑当作活动地点证明。",
+      "title": "上方偏左以超大错落手写感剪纸字呈现“童趣时光”，字形可叠压可见建筑或场景轮廓；旁边小字“社区儿童活动通知”。标题与图像共同构图，避免居中对称通知模板。",
+      "elements": "右上安排孩子游戏、创意手工和亲子互动的简洁剪纸小场景。纸屑、纸花、弧线、小星星自然向标题及中下部延伸，形成有节奏的视觉动线，留白精细而不过度装饰。",
+      "information": "中下部设置三个错落、互相呼应的纸片组合：日期以超大“10.15”与小号“2026年”“活动日期”组合，含义等同2026年10月15日，不再另印完整日期；宽幅弧形纸带突出“桃子湖小区1楼”并配小标签“活动地点”；双人剪纸图形结合“儿童及家长”和“参与对象”。沿彩色弧线串联，避免普通文字列表或等大三栏卡。",
+      "content": "沿剪纸小场景边缘或相连纸带清楚写出“趣味游戏、创意手工、亲子互动等”，文字是实际项目，不仅用图标暗示，信息层级低于日期地点但一眼可见。",
+      "footer": "底部整洁通知区域配“温馨提示”，准确写出清单中的完整陪同、准时、配合工作人员与安全有序提示；其下温暖醒目呈现“期待与小朋友们相见！”。不新增主办、电话、报名和费用。",
+      "finish": "活泼克制、纸边和叠层精致，标题可与画面重叠但关键信息有对比。生成完整独立海报，不做贴墙mockup，不生成假Logo或二维码。尽力准确呈现所有清单文字；全部排版由模型完成。"
+    },
+    "en": {
+      "reference": "Image 1 is the generated Nano Banana scene and style reference. Preserve its paper-cut material, palette and visible scene relationships. If supplied, image 2 is the original community photo for location appearance only. Do not reproduce old banner text.",
+      "title": "Use oversized staggered handmade paper lettering for “Playful Moments” at the upper left, overlapping the visible scene silhouette. Add “Community Children’s Activity Notice” in smaller type nearby; use an asymmetric composition.",
+      "elements": "Place small paper-cut scenes of games, creative crafts and parent–child interaction at the upper right. Connect the title and lower information with paper confetti, flowers, curves and stars in the same material.",
+      "information": "Create three staggered connected paper information compositions. Emphasize a very large “15” with “October 2026” and the small label “Date”, expressing 15 October 2026 once. Place “1st floor, 桃子湖小区” on a wide curved paper ribbon with “Venue”. Pair two-person paper figures with “Children and parents” and “Who can join”. Avoid a plain list or three equal columns.",
+      "content": "Clearly include “Fun games, creative crafts, parent–child activities, and more” beside the corresponding illustrations or along a connecting ribbon; the activity names must appear as text.",
+      "footer": "Add a neat “Friendly reminder” area with the complete parental-accompaniment, arrival, staff-guidance and safe-environment sentence from the text inventory. Below it place “We look forward to seeing all the children!”. Do not invent organizer, contact, fees or registration.",
+      "finish": "Produce one complete English poster with fine paper edges, restrained lively color and readable information hierarchy. Chinese is permitted only for the supplied place name. No wall mockup, fake logo or QR code. Render all inventory text as accurately as possible; the model performs all typography and layout."
+    }
+  }
+}

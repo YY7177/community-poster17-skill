@@ -1,0 +1,144 @@
+[
+  {
+    "id": "TH001",
+    "library": "theme",
+    "name": "社区维修",
+    "source": "references/databases/theme/主题方向案例集.xlsx",
+    "sheet": "Sheet1",
+    "row": 3,
+    "fields": {
+      "所属大主题类别": "便民服务",
+      "主题": "社区维修",
+      "要求": "$scene-distillation-zine-v1-3 请使用该 Skill，根据以下资料制作社区服务信息海报。\n一、任务主题\n青禾社区便民维修日。\n二、传播目标\n让居民快速了解可以维修什么、什么时候参加、去哪里，以及需要提前准备什么。\n三、目标受众\n社区居民，重点照顾老年人和不熟悉线上预约的居民。\n四、交付要求\n- 中文版、英文版海报各 1 张。\n- 竖版 4:5，1200 × 1500 像素，PNG 格式。\n- 风格亲切、简洁，文字清晰，关键服务信息醒目。\n- 请实际生成图片，并简短说明内容核对结果。\n- 以下机构、地点和联系方式均为测试用虚构信息。\n五、锁定的中英文文案\n机构名称\n中文：青禾社区服务中心\n英文：Qinghe Community Service Center\n主标题\n中文：社区便民维修日\n英文：Community Repair Day\n介绍\n中文：家中小物件出了问题？带来看看，让维修志愿者帮帮忙。\n英文：Having trouble with a household item? Bring it along and ask our repair volunteers for help.\n服务项目\n中文：\n1. 小家电故障检查：电风扇、台灯、电水壶。\n2. 自行车基础检查：轮胎充气、刹车检查。\n3. 衣物简单修补：缝补开线、补缀纽扣。\n英文：\n1. Small appliance checks: fans, desk lamps, and electric kettles.\n2. Basic bicycle checks: tyre inflation and brake checks.\n3. Simple clothing repairs: mending seams and sewing on buttons.\n活动时间\n中文：2026年10月18日，星期日，09:00–12:00。\n英文：Sunday, 18 October 2026, 09:00–12:00.\n活动地点\n中文：青禾社区服务中心一楼大厅。\n英文：Ground-floor hall, Qinghe Community Service Center.\n参与方式\n中文：无需预约，现场登记，按到场顺序提供服务。\n英文：No booking required. Register on arrival. Service is provided on a first-come, first-served basis.\n费用说明\n中文：检查与简单维修免费。如需更换配件，志愿者会先说明费用，经居民同意后再处理。\n英文：Checks and simple repairs are free. If replacement parts are needed, volunteers will explain the cost and ask for your agreement before proceeding.\n携带提示\n中文：每户最多携带2件物品。请携带相关配件，并提前说明故障情况。\n英文：Bring up to two items per household, along with any relevant accessories. Please describe the problem when you register.\n服务边界\n中文：本次不提供大型家电、燃气设备及手机电脑维修。无法现场修复的物品，将提供后续处理建议。\n英文：Repairs for large appliances, gas appliances, phones, and computers are not available. If an item cannot be repaired on site, volunteers will suggest next steps.\n咨询方式\n中文：可到社区服务中心前台咨询。\n英文：For enquiries, visit the community service centre reception desk.\n六、视觉素材条件\n没有现成照片和机构 Logo。可使用家电、自行车、针线等简洁图标辅助理解，机构名称使用文字呈现。\n七、内容检查要求\n所有服务项目、日期、时间、地点、费用条件和服务边界都必须保留。允许调整换行与排版，不得自行新增服务承诺、电话号码或二维码。\n附带的图片供你参考氛围和感受，可以使用这张图片或者进行二次绘画处理",
+      "倾向风格（仅举例，也可适配其他风格）": "实拍plog风格",
+      "调试一": "=_xlfn.DISPIMG(\"ID_72024023DD774FD33468BF6A5C2BA7DE\",1)",
+      "一问题与修改意见": "过于复杂了，再简约克制一些，留白多一点",
+      "调试二": "=_xlfn.DISPIMG(\"ID_BDF9060D7F3635FCC868BF6AF5427281\",1)",
+      "二问题与修改意见": "留白不是真的背景变白，保留社区背景，控制文字比例和大小的留白",
+      "调试三": "=_xlfn.DISPIMG(\"ID_CDF8082013CC23858A69BF6ACF8B2D23\",1)",
+      "文字总结": "### 项目目标\n\n制作“青禾社区便民维修日”海报，完整呈现服务项目、时间、地点、参与方式、费用、携带提示和服务边界，同时保证社区居民，尤其是老年人，能够快速阅读。\n\n### 调整过程\n\n设计先后尝试了纸刊插画、高密度荧光视觉和浅色留白方案。实践发现，超大标题、圆环、卡片、写实图标和多重强调会造成视觉拥挤；留白也不等于把背景直接改成白色。\n\n### 最终方向\n\n保留全幅社区实景，让道路、树荫、天空和建筑入口成为自然留白。缩小标题和日期区域，减少装饰，将详细信息集中在底部统一的半透明面板中。荧光黄绿色仅用于关键词和小型标记，服务项目使用简洁线性图标。\n\n### Skill 制作要点\n\n后续 Skill 应区分“环境留白”和“纯色留白”，并明确背景占比、标题尺度、信息密度、文字覆盖范围和强调色面积。文案完整性与可读性应作为硬性标准，同时禁止擅自添加电话、二维码、Logo及额外服务承诺。",
+      "总结建议的skill参数": "background_mode:\n  - full_bleed_photo\n  - partial_photo\n  - illustrated_background\n\nnegative_space_mode:\n  - environmental\n  - blank_color\n  - mixed\n\ntitle_scale:\n  - restrained\n  - medium\n  - dominant\n\ncontent_density:\n  - low\n  - medium\n  - high\n\ninformation_panel:\n  - none\n  - single_translucent_panel\n  - modular_cards\n\nicon_style:\n  - none\n  - minimal_line\n  - illustrated\n  - photographic_cutout\n\naccent_usage:\n  - keyword_only\n  - headings_and_markers\n  - structural_graphics"
+    },
+    "images": [
+      {
+        "field": "调试一",
+        "wps_image_id": "ID_72024023DD774FD33468BF6A5C2BA7DE",
+        "path": null,
+        "status": "source_reference_missing"
+      },
+      {
+        "field": "调试二",
+        "wps_image_id": "ID_BDF9060D7F3635FCC868BF6AF5427281",
+        "path": null,
+        "status": "source_reference_missing"
+      },
+      {
+        "field": "调试三",
+        "wps_image_id": "ID_CDF8082013CC23858A69BF6ACF8B2D23",
+        "path": null,
+        "status": "source_reference_missing"
+      }
+    ],
+    "review_status": "原表记录，未补造独立测试结论"
+  },
+  {
+    "id": "TH002",
+    "library": "theme",
+    "name": "消防宣传",
+    "source": "references/databases/theme/主题方向案例集.xlsx",
+    "sheet": "Sheet1",
+    "row": 4,
+    "fields": {
+      "所属大主题类别": "安全与应急",
+      "主题": "消防宣传",
+      "要求": "一、任务主题\n青禾社区消防安全宣传：楼道畅通，安全到家。\n二、传播目标\n让居民了解楼道堆物、堵塞安全出口和电动自行车入楼充电的风险，知道日常应做什么，以及发现火情后如何报警。\n三、目标受众\n社区居民，重点照顾老年人、租住居民和电动自行车使用者。文案通俗，关键提示清楚醒目。\n四、交付要求\n（一）中文版海报1张，所有文字使用中文。\n（二）竖版4:5，1200×1500像素，PNG格式。\n（三）风格简洁、清晰，有警示感但不制造恐慌；避免血腥画面和夸张灾难场景。\n（四）请实际生成图片，并简短说明内容核对结果。\n（五）社区名称为测试用虚构信息，119为中国大陆真实火警电话。\n五、海报文案\n（一）机构名称\n青禾社区服务中心\n（二）主标题\n楼道畅通，安全到家\n（三）副标题\n社区消防安全，从身边小事做起。\n（四）日常行动\n1. 楼道不堆物：鞋柜、纸箱和杂物不要占用公共楼道。\n2. 出口不堵塞：保持疏散通道和安全出口畅通。\n3. 电动自行车不入楼：不在楼道、楼梯间或室内停放和充电，使用指定室外充电区域。\n4. 消防设施不遮挡：不要遮挡、挪用或损坏灭火器等消防设施。\n（五）发现隐患\n发现楼道堆物、出口堵塞或违规充电，请向社区服务中心或物业反映。\n（六）发现火情\n发现火情，及时拨打119，说明起火地址、现场情况和联系电话。\n（七）避险提醒\n发生火灾时，不乘坐电梯，不返回火场取物。\n（八）咨询方式\n日常消防安全问题，可到社区服务中心前台咨询；紧急火情请拨打119。\n六、视觉素材条件\n（一）没有现成照片和机构Logo，机构名称使用文字呈现。\n（二）可使用楼道、安全出口、电动自行车、灭火器等简洁图标，保持风格统一。\n（三）图标必须与文字对应。表现禁止行为时，须有明确的禁止标识，避免被误认为正确示范。\n（四）119应醒目，同时保证四项日常行动清晰可读。\n七、内容检查要求\n（一）保留四项日常行动、隐患反馈方式、报警信息和避险提醒。\n（二）允许调整换行与排版，不得改变原意或自行增加消防操作步骤。\n（三）不得新增电话号码、二维码、活动时间或服务承诺。\n（四）生成后检查错字、漏项、图文冲突及缩小后的可读性，有问题请修改并重新导出。\n请直接交付可打开查看的中文版PNG海报，不要只提供设计建议或提示词。",
+      "倾向风格（仅举例，也可适配其他风格）": "插画风格",
+      "风格例图其中之一（会一直调试给它参考，这里仅举例一个）": "=_xlfn.DISPIMG(\"ID_28DABBE8B269421AB0E1B294E079BA54\",1)",
+      "实体社区图片或其他提供的照片": "/",
+      "调试一": "=_xlfn.DISPIMG(\"ID_83C3C1E5B22F40F0B19520A023D1D77D\",1)",
+      "一问题与修改意见": "整体留白再多一点，现在太满没有呼吸感，去掉不必要信息例如日常行动的后面小字等",
+      "调试二": "=_xlfn.DISPIMG(\"ID_B1A7E613859E40B39C5F787B3AC11D83\",1)",
+      "二问题与修改意见": "插图大气一些现在颜色太挑抢画面中心。且海报的所有字都要小一点留一些呼吸空间",
+      "调试三": "=_xlfn.DISPIMG(\"ID_94CFAA685BC94F9880910EFB24196A83\",1)",
+      "文字总结": "- 信息做减法：初版内容过满，逐步删除日常行动后的解释性小字和无必要信息，只保留四项核心行动、隐患反馈、119报警及避险提醒。\n- 减少视觉元素：从多个场景、人物和图标，收敛为一张核心大插图 + 少量功能图标，避免配图抢占信息注意力。\n- 强化留白：参考社区海报的呼吸感，缩小标题、正文和模块面积，拉开区块间距，不追求“填满画面”。\n- 统一视觉语言：插图调整为简约矢量风格，降低颜色饱和度和视觉对比，让画面更克制、大气，而不是卡通感过强。\n- 处理图文融合：避免背景插图与信息区“一刀切”，通过羽化、淡出、留白渐隐自然过渡，使插图成为背景氛围而非独立模块。\n- 核心原则：后续在 Sketch 中可重点提炼“减信息—减配图—扩留白—弱色彩—柔过渡”这套版式逻辑。",
+      "总结建议的skill参数": "poster_design_rules:\n\n  layout:\n    whitespace: high\n    density: low\n    visual_center: single\n    max_main_illustrations: 1\n    avoid_overfilling: true\n    avoid_fragmented_layout: true\n\n  typography:\n    title_scale: restrained\n    body_scale: small\n    hierarchy: clear\n    avoid_oversized_title: true\n    use_spacing_for_hierarchy: true\n\n  illustration:\n    style: minimal_flat_vector\n    role: supporting\n    saturation: low_to_medium\n    contrast: low_to_medium\n    avoid_multiple_scene_illustrations: true\n    avoid_visual_competition_with_text: true\n    avoid_heavy_3d_style: true\n\n  information:\n    priority: core_information_first\n    simplify_copy: true\n    remove_redundant_explanations: true\n    reduce_unnecessary_small_text: true\n    reduce_decorative_elements: true\n\n  modules:\n    card_usage: restrained\n    avoid_everything_in_cards: true\n    prefer:\n      - whitespace\n      - spacing\n      - typography_hierarchy\n      - subtle_dividers\n\n  color:\n    main_color_count: 2-3\n    saturation: restrained\n    warning_color: key_information_only\n    avoid_large_high_saturation_areas: true\n\n  image_text_transition:\n    hard_cut: false\n    transition:\n      - feather\n      - fade\n      - soft_gradient\n      - whitespace_blending\n\n  final_check:\n    questions:\n      - \"画面是否太满？\"\n      - \"插图是否太抢？\"\n      - \"信息是否太碎？\"\n      - \"留白是否足够？\"\n      - \"是否存在无意义配图？\"\n      - \"背景与信息区是否过渡自然？\"\n\n  core_principle:\n    - \"减信息\"\n    - \"减配图\"\n    - \"扩留白\"\n    - \"弱色彩\"\n    - \"柔过渡\""
+    },
+    "images": [
+      {
+        "field": "风格例图其中之一（会一直调试给它参考，这里仅举例一个）",
+        "wps_image_id": "ID_28DABBE8B269421AB0E1B294E079BA54",
+        "path": "references/databases/theme/embedded-images/image9.png",
+        "status": "available"
+      },
+      {
+        "field": "调试一",
+        "wps_image_id": "ID_83C3C1E5B22F40F0B19520A023D1D77D",
+        "path": "references/databases/theme/embedded-images/image6.png",
+        "status": "available"
+      },
+      {
+        "field": "调试二",
+        "wps_image_id": "ID_B1A7E613859E40B39C5F787B3AC11D83",
+        "path": "references/databases/theme/embedded-images/image7.png",
+        "status": "available"
+      },
+      {
+        "field": "调试三",
+        "wps_image_id": "ID_94CFAA685BC94F9880910EFB24196A83",
+        "path": "references/databases/theme/embedded-images/image8.png",
+        "status": "available"
+      }
+    ],
+    "review_status": "原表记录，未补造独立测试结论"
+  },
+  {
+    "id": "TH003",
+    "library": "theme",
+    "name": "二手集市",
+    "source": "references/databases/theme/主题方向案例集.xlsx",
+    "sheet": "Sheet1",
+    "row": 5,
+    "fields": {
+      "所属大主题类别": "节日与活动宣发",
+      "主题": "二手集市",
+      "要求": "一、任务主题\n青禾社区闲置好物集市：闲置有去处，好物再相遇。\n\n二、传播目标\n让居民知道可以出售哪些闲置物品、活动的时间地点，以及如何报名摆摊或到场选购。\n\n三、目标受众\n社区居民，包括有闲置物品的家庭、租住居民和希望购买二手好物的年轻人。\n\n四、交付要求\n（一）中文版海报1张。\n（二）竖版4:5，1200×1500像素，PNG格式。\n（三）风格亲切、轻松、简约，留白充足，文字清晰。\n（四）实际生成海报图片，并简短说明内容核对结果。\n（五）以下社区名称、活动地点和安排均为测试用虚构信息。\n\n五、海报文案\n\n（一）机构名称\n青禾社区服务中心\n\n（二）主标题\n闲置有去处\n好物再相遇\n\n（三）副标题\n青禾社区闲置好物集市\n\n（四）活动介绍\n把用不上的好物带来，为它找到新主人。\n\n（五）售卖品类\n书籍文具 / 衣物配饰 / 玩具 / 生活用品 / 小型家电\n\n（六）活动时间\n2026年10月24日\n14:00—17:00\n\n（七）活动地点\n青禾社区中心广场\n\n（八）参与方式\n想摆摊：10月22日前到社区服务中心前台报名，每户限报1个摊位，摊位免费。\n想逛逛：无需报名，活动当天直接到场。\n\n（九）交易提醒\n请如实说明物品成色、功能及瑕疵，价格由买卖双方协商，付款前当面检查。\n不售卖食品、药品及危险物品。\n\n（十）天气安排\n如遇下雨，活动延期，具体安排以社区公告为准。\n\n六、视觉要求\n（一）采用简约平涂的矢量插画风格，以一个完整的集市场景作为主图，可包含摊位与少量代表性闲置物品。\n（二）配色柔和统一，避免过多高饱和色、零碎装饰和重复小图标。\n（三）留白充足，标题与正文大小克制，拉开信息之间的距离。\n（四）时间、地点和两种参与方式清晰易找，交易提醒放在次要层级。\n（五）没有现成照片和机构Logo，机构名称使用文字呈现。\n\n七、内容检查要求\n（一）保留售卖品类、时间、地点、报名截止日期、免费摊位、参与方式及交易提醒。\n（二）允许精简表达和调整换行，不得改变活动条件。\n（三）不得自行新增电话号码、二维码、交易担保或售后承诺。\n（四）检查错字、漏项、日期及缩小后的可读性，有问题请修改并重新导出。\n\n请直接交付可打开查看的中文版PNG海报。",
+      "倾向风格（仅举例，也可适配其他风格）": "矢量扁平插画风格",
+      "风格例图其中之一（会一直调试给它参考，这里仅举例一个）": "=_xlfn.DISPIMG(\"ID_A861B4AD084143619A0B9771CE9A151D\",1)",
+      "实体社区图片或其他提供的照片": "/",
+      "调试一": "=_xlfn.DISPIMG(\"ID_704E7BDF5DB54836AA39191272470689\",1)",
+      "一问题与修改意见": "方向正确，在把自动缩小一些，并且去掉字下面这种非常淡的底色。保持字的大小统一，例如这个2026和“年”字体大小不统一",
+      "调试二": "=_xlfn.DISPIMG(\"ID_28DBE2C512A2418298DDCE8F570A336B\",1)",
+      "二问题与修改意见": "大标题稍微用像我上面给你的参考那样的活泼一点的字体，不要这么方正。去掉那个把用不上的什么什么那一段小字解释。以及最下面的参与方式，那四大块字和右边插图也都简约一点。",
+      "调试三": "=_xlfn.DISPIMG(\"ID_2F5681B602A94E2A8F2E05A921A8D891\",1)",
+      "文字总结": "### 社区活动海报｜设计经验总结\n\n- **整体气质**：优先“简约、大气、亲切”，避免传统宣传海报的信息堆砌感；画面必须有明显留白和呼吸感。  \n- **信息层级**：主标题最大且醒目，可使用略活泼、有亲和力的字体，避免过度方正；副标题、时间地点、正文逐级缩小，字号保持统一规范。  \n- **内容精简**：删除重复解释性文案，只保留活动名称、时间、地点、品类、参与方式、必要提醒等核心信息。  \n- **插图控制**：只保留一个完整的主场景，不使用大量小图标、小插画；人物数量减少，尤其避免背景出现密集人头、衣服等碎片元素。  \n- **版式处理**：信息之间主动拉开距离，减少卡片和色块；正文下方不加无意义的浅色底框，用留白、字号和细线建立层级。  \n- **配色原则**：采用柔和、低饱和的统一配色，插图不能抢过标题和核心信息。  \n- **最终检查**：重点检查文字大小一致性、错字漏项、信息完整性，以及缩小后是否仍清晰易读。",
+      "总结建议的skill参数": "# 社区活动海报｜经验优化参数\n# 用途：在生成社区类海报前读取，避免信息过满、插图琐碎、层级混乱等问题\n\nposter_experience_rules:\n\n  # 1. 整体风格\n  visual_style:\n    keywords:\n      - 简约\n      - 大气\n      - 亲切\n      - 轻松\n      - 有呼吸感\n    whitespace: \"充足\"\n    information_density: \"中低\"\n    color_saturation: \"低至中\"\n    avoid:\n      - 信息塞满画面\n      - 传统宣传栏式排版\n      - 大量装饰元素\n      - 高饱和颜色堆叠\n      - 过多卡片和色块\n\n  # 2. 标题规则\n  typography:\n    main_title:\n      priority: \"最高\"\n      size: \"大\"\n      color: \"黑色优先\"\n      style: \"简约但略有活泼感、亲和力\"\n      avoid:\n        - 过度方正僵硬\n        - 花哨艺术字\n        - 复杂描边和阴影\n\n    secondary_text:\n      size: \"明显小于主标题\"\n      style: \"简洁易读\"\n      rule: \"同一层级字号、字重保持统一\"\n\n    numeric_text:\n      rule: \"数字与对应中文单位视觉字号统一\"\n      example: \"2026 与 年 不应出现明显大小差异\"\n\n  # 3. 文案精简\n  content:\n    principle: \"核心信息优先，解释性文字能删则删\"\n    must_keep:\n      - 活动名称\n      - 时间\n      - 地点\n      - 核心活动内容\n      - 参与方式\n      - 必要提醒\n    remove_first:\n      - 重复解释\n      - 无实际信息的小标语\n      - 已能从标题理解的说明句\n      - 为填满版面而增加的文字\n\n  # 4. 插图规则\n  illustration:\n    style: \"简约平涂矢量\"\n    strategy: \"一个完整主场景优先\"\n    complexity: \"低至中\"\n    people_density: \"少量\"\n    object_density: \"克制\"\n\n    simplify_priority:\n      - 删除背景密集人头\n      - 删除重复人物\n      - 删除大量衣服和商品碎片\n      - 删除无意义小物件\n      - 删除零碎装饰\n\n    preserve:\n      - 主体人物\n      - 核心场景\n      - 必要摊位\n      - 能表达活动性质的代表性物品\n\n    rule: \"保持主体造型和场景关系，优先做减法，而不是重新增加元素\"\n\n  # 5. 图标使用\n  icons:\n    default: \"尽量不用\"\n    use_only_when: \"能明显提升信息识别效率\"\n    avoid:\n      - 每条信息配一个icon\n      - 装饰性小图标\n      - 重复表达文字含义的图标\n      - 多套不同风格icon混用\n\n  # 6. 信息模块\n  layout:\n    principle: \"优先用留白建立层级，而不是依赖底色卡片\"\n    spacing: \"偏宽松\"\n    bottom_information:\n      style: \"轻量、简洁\"\n      text_size: \"小于主要活动信息\"\n      avoid:\n        - 四个厚重卡片\n        - 大面积浅色底框\n        - 模块过度强调\n        - 每个模块视觉权重相同\n\n  # 7. 背景与容器\n  containers:\n    default_background: \"干净浅色\"\n    text_background: \"默认无底色\"\n    use_background_block_only_when: \"确实需要区分重要信息\"\n    avoid:\n      - 正文后方若有若无的浅色块\n      - 大量圆角卡片\n      - 为装饰而添加的容器\n\n  # 8. 信息优先级\n  hierarchy:\n    level_1:\n      - 主标题\n    level_2:\n      - 活动名称\n      - 时间\n      - 地点\n    level_3:\n      - 核心活动内容\n      - 参与方式\n    level_4:\n      - 交易提醒\n      - 天气说明\n      - 补充规则\n\n  # 9. 生成前自检\n  pre_generation_check:\n    - \"是否可以再删掉20%左右的非必要元素？\"\n    - \"是否只有一个主要视觉中心？\"\n    - \"主标题是否第一眼可见？\"\n    - \"插图是否出现过多人头、衣物或商品碎片？\"\n    - \"是否使用了过多icon、卡片或浅色底框？\"\n    - \"信息之间是否留有足够空间？\"\n\n  # 10. 生成后自检\n  post_generation_check:\n    - \"检查同层级文字字号是否一致\"\n    - \"检查数字与中文单位大小是否协调\"\n    - \"检查错字、漏字和日期\"\n    - \"检查时间、地点、参与方式是否容易找到\"\n    - \"检查缩小后正文是否仍可读\"\n    - \"检查插图是否抢夺标题视觉焦点\"\n    - \"若画面仍显拥挤，优先删元素，不优先缩小所有文字\"\n\n  # 11. 核心经验\n  learned_principle:\n    - \"社区海报不是元素越丰富越好，而是信息越容易被看到越好。\"\n    - \"出现杂乱时优先做减法：减人物、减图标、减卡片、减解释文字。\"\n    - \"留白本身就是版式元素，不需要把每一块空间填满。\"\n    - \"主插图负责营造氛围，文字负责传递信息，两者不要争夺视觉中心。\""
+    },
+    "images": [
+      {
+        "field": "风格例图其中之一（会一直调试给它参考，这里仅举例一个）",
+        "wps_image_id": "ID_A861B4AD084143619A0B9771CE9A151D",
+        "path": "references/databases/theme/embedded-images/image13.png",
+        "status": "available"
+      },
+      {
+        "field": "调试一",
+        "wps_image_id": "ID_704E7BDF5DB54836AA39191272470689",
+        "path": "references/databases/theme/embedded-images/image10.png",
+        "status": "available"
+      },
+      {
+        "field": "调试二",
+        "wps_image_id": "ID_28DBE2C512A2418298DDCE8F570A336B",
+        "path": "references/databases/theme/embedded-images/image11.png",
+        "status": "available"
+      },
+      {
+        "field": "调试三",
+        "wps_image_id": "ID_2F5681B602A94E2A8F2E05A921A8D891",
+        "path": "references/databases/theme/embedded-images/image12.png",
+        "status": "available"
+      }
+    ],
+    "review_status": "原表记录，未补造独立测试结论"
+  }
+]

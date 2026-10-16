@@ -1,0 +1,29 @@
+{
+  "layout_reading_version": "3.0",
+  "layout_index": "references/catalog/layout-index.json",
+  "layout_fields_per_case": [
+    77
+  ],
+  "layout_visual_reanalysis": "not_performed",
+  "theme_records": 3,
+  "layout_concrete": 52,
+  "layout_abstract": 25,
+  "style_cards": 12,
+  "style_images": 97,
+  "theme_reference_images": 96,
+  "missing_layout_images": [],
+  "missing_theme_images": [
+    {
+      "case": "TH001",
+      "field": "调试一"
+    },
+    {
+      "case": "TH001",
+      "field": "调试二"
+    },
+    {
+      "case": "TH001",
+      "field": "调试三"
+    }
+  ]
+}
